@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IFBag - Your Infinite Flight Pilot Bag</title>
+    <link rel="stylesheet" href="mainpage.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+</head>
+<body>
+
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="images/92-926950_white-plane-silhouette-png.png" alt="need to go home"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="performance.html">Performance</a></li>
+                    <li><a href="index.html">InfiniteX</a></li>
+                    <li><a href="performance.html">FPLtoIF</a></li>
+                    <li><a href="performance.html">Community</a></li>
+                    <li><a href="performance.html">Discord</a></li>
+
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <div class="text-box">
+            <h1>Ready to take flight? <br></h1>
+            <p>You have landed at the right place.</p>
+            <a href="performance.html" class="hero-btn">Start up your APU</a>
+        </div>
+
+    </section>
+
+    <!-------Welcome Captain------->
+
+    <section class="welcomecaptain">
+        <h1>Welcome Captain</h1>
+        <p>Here you are going to find the many resources needed to help you setup, prepare, calculate and track your flight. This is the all in one tool for the Infinite Flight Pilot looking for the most realism and a one stop shop with everything needed to get flying.</p>
+
+        <div class="row">
+            <div class="welcomecaptain-col">
+                <h3>Flight Planning</h3>
+                <p>Powerful flight planning tools at your fingertips. With simbrief support you can get the most up to date FPL that will work perfectly within Infinite Flight.</p>
+            </div>
+            <div class="welcomecaptainperf-col">
+                <h3>Performance calculations</h3>
+                <p>With the performace page you can see the most up to date performance figures for all aircraft currently in Infinite Flight. With takeoff speeds, vertical speeds, cruise altitudes, cruise speeds, descent profiles and more.</p>
+            </div>
+            <div class="welcomecaptain-col">
+                <h3>Flight Tracking</h3>
+                <p>If you want to stay on top of your flight throughout the journey then you can keep track of it with InfiniteX. A powerful flight tracking system for Infinite Flight which gives you everything you need to know about your flight.</p>
+            </div>
+            <div class="welcomecaptainairport-col">
+                <h3>Airport Tracking</h3>
+                <p>If you want to see what airports are currently staffed by ATC along with getting other information such as ATIS, METAR and more you can do just that.</p>
+            </div>
+        </div>
+
+    </section>
+
+        <!---Footer--->
+
+        <section class="footer">
+            <div class="footer1">
+                <h2>Disclaimer</h2>
+                <p>Infinite Flight Bag - IFB is in no way affiliated with Infinite Flight LLC.</p>
+                <p>Infinite Flight Bag is a community project proudly designed by Average_Gamer in house.</p>
+                <p>Infinite Flight Bag - 2022</p>
+            </div>
+        </section>
+
+    <!------ JAVASCRPIT FOR TOGGLE MENU------>
+    <script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+    </script>
+    
+</body>
+</html>

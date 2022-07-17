@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boeing F-18E Super Hornet - IFBag</title>
+    <link rel="stylesheet" href="f18.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+</head>
+<body>
+
+   <!----Main Page top and navbar---->
+   
+    <section class="headerF18E">
+        <nav>
+            <a href="index.html"><img src="images/92-926950_white-plane-silhouette-png.png" alt="Homepage"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="performance.html">Performance</a></li>
+                    <li><a href="index.html">InfiniteX</a></li>
+                    <li><a href="performance.html">FPLtoIF</a></li>
+                    <li><a href="performance.html">Community</a></li>
+                    <li><a href="performance.html">Discord</a></li>
+                    </div>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <div class="F18EF18E-300">
+            <h1>Boeing F18E Super Hornet <br></h1>
+            <p>Your full performace calculations and more</p>
+        </div>
+
+    </section>
+
+
+<!----Welcome, Captain. Section---->
+
+    <section class="welcomeonboardcaptainF18E">
+        <div class="welcomeonboardcaptainF18E">
+            <h2>Welcome on board, Captain.</h2>
+            <p>Here you will find everything you need in order to fly your Boeing F18E Super Hornet as realistically as possible. <br> Below you will find information such as Takeoff and Landing data, Cruise altitudes, Cruise speeds along with Aircraft information IRL and Infinite Flight.</p>
+        </div>
+    </section>
+
+    <section class="F18EF18Eperformance">
+        <div class="F18EF18Etakeoffperformance">
+            <h2>F18E F18E Performance</h2>
+            <h3>Below is the performance of the Boeing F18E Super Hornet.</h3>
+            <p> Winds Calm <br> Runway 08R <br> Temperature Standard (15˚C) <br> All initial pitch angles were 12.5-15˚ nose up until 1000ft. AFE (Above Field Elevation) before pitch was dropped to increase speed <br> Heavy Departure/Landing conducted at 90% load. Adjust as necessary.</p>
+            <table class="F18Eperformancetable">
+                <thead>
+                    <tr>
+                        <th>Load %</th>
+                        <th>Takeoff Power</th>
+                        <th>Takeoff Flaps</th>
+                        <th>Rotation Speed</th>
+                        <th>V2</th>
+                        <th>Landing Flaps</th>
+                        <th>VApp ‡</th>
+                        <th>Vref</th>
+                    </tr>
+                </thead>
+                <tbody>
+                   <tr>
+                    <td>25%</td>
+                    <td>77% = 82% N1</td>
+                    <td>Flaps 2</td>
+                    <td>112kts</td>
+                    <td>122kts</td>
+                    <td>Flaps 4</td>
+                    <td>126kts</td>
+                    <td>121kts</td>
+                  </tr>
+                  <tr>
+                    <td>50%</td>
+                    <td>80% = 84% N1</td>
+                    <td>Flaps 2**</td>
+                    <td>128kts</td>
+                    <td>133kts</td>
+                    <td>Flaps 4</td>
+                    <td>137kts</td>
+                    <td>132kts</td>
+                  </tr>
+                  <tr>
+                    <td>75%</td>
+                    <td>83% = 87% N1</td>
+                    <td>Flaps 3**</td>
+                    <td>141kts</td>
+                    <td>144kts</td>
+                    <td>Flaps 5</td>
+                    <td>138kts</td>
+                    <td>133kts</td>
+                  </tr>
+                  <tr>
+                    <td>>75%***</td>
+                    <td>85% = 89% N1</td>
+                    <td>Flaps 3**</td>
+                    <td>148kts</td>
+                    <td>150kts</td>
+                    <td>Flaps 5</td>
+                    <td>140kts</td>
+                    <td>135kts</td>
+                  </tr>
+                </tbody>
+                
+            </table>
+        </div>
+    </section>
+
+
+     <!------Deer is the best------>
+
+     <section class="luvyadear">
+        <div class="deerio">
+            <p>Credit for the information goes to: DeerCrusher</p>
+        </div>
+     </section>
+
+    <!------F18E Performance Table Notes------>
+
+    <section class="perftablenotes">
+        <div class="F18Eperftablenotes">
+            <h2>Notes</h2>
+            <p>**Note: Depending on the length of runway, weight, terrain and other considerations, a higher flap setting may be desired.
+
+                <br>***Heavy Departures/Landings: Takeoffs over 75% may result in takeoff over Maximum Takeoff Weight (MTOW). This may also result in runway overruns. This could lead to overweight landings depending on your configuration and length of flight. Consider all factors and risks.
+                
+                <br> ‡ Note: APPR is disabled for landings greater than the load below for where the Maximum Landing Weight (MLW) lies:
+                
+                69%</p>
+        </div>
+    </section>
+    
+    <!------Crusing Altitudes------>
+
+    <section class="cruisealtitudesF18E">
+        <div class="cruisealtF18E">
+            <h2>Cruising Altitudes</h2>
+            <p>Below is the cruising altitudes that you should use when flying your F18E Super Hornet</p>
+        </div>
+    </section>
+
+    <!------Tables for the cruising altitudes------>
+
+    <section class="cruisetables">
+        <div class="cruisetableF18E">
+            <table class="F18Ecruisealttable">
+                <thead>
+                    <tr>
+                        <th>Heading Odd</th>
+                        <th>Altitude</th>
+                        <th>Heading Even</th>
+                        <th>Altitude</th>
+                        <th>Heading Odd</th>
+                        <th>Altitude</th>
+                        <th>Heading Even</th>
+                        <th>Altitude</th>
+                    </tr>
+                </thead>
+                <tbody>
+                   <tr>
+                    <td>360 - 179</td>
+                    <td>10 - 30 - 50 - 70 - <br> 90 - 11 - 13 - 15 - <br> 17 - 19 - 21 - 23 - <br> 25 - 27 - 29 - 31 - <br> 33 - 35 - 37 - 39</td>
+                    <td>359 - 180</td>
+                    <td>20 - 40 - 60 - 80 - <br> 10 - 12 - 14 - 16 - <br> 18 - 20 - 22 - 24 <br> 26 - 28 - 30 - 32 - <br> 34 - 36 - 38</td>
+                    <td>360 - 179</td>
+                    <td>15 - 35</td>
+                    <td>359 - 180</td>
+                    <td>25</td>
+                  </tr>
+                </tbody>
+                
+            </table>
+        </div>
+    </section>
+
+    <!-----A200 Cruising Speeds----->
+
+    <section class="F18Ecruisingspeeds">
+        <div class="cruisespeedF18E">
+            <h2>Cruising Speeds</h2>
+            <p>Below is the cruising speeds that you should use when flying your F18E Super Hornet</p>
+        </div>
+    </section>
+
+    <!------F18E Cruising Speeds Table------>
+
+    <section class="220cruisespeed">
+        <div class="cruisespeed220">
+            <table class="F18Ecruisingspeedstable">
+                <thead>
+                    <tr>
+                        <th>Typical Cruise Speed</th>
+                        <th>Maximum Cruise Speed</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Mach .78 (447 kn; 829 km/h) typical</td>
+                        <td>Mach .82 (470 kn; 871 km/h) max</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+    <!----F18E Fuel Burn Table---->
+
+    <section class="220fuelburn">
+        <div class="fuelburn220">
+            <h2>F18E Fuel Burn</h2>
+            <p>Below is the fuel burn of the F18E Super Hornet</p>
+            <table class="fuelburntableF18E">
+                <thead>
+                    <tr>
+                        <th class="emptyF18E"></th>
+                        <th>FL280</th>
+                        <th>FL290</th>
+                        <th>FL300</th>
+                        <th>FL310</th>
+                        <th>FL320</th>
+                        <th>FL330</th>
+                        <th>FL340</th>
+                        <th>FL350</th>
+                        <th>FL360</th>
+                        <th>FL370</th>
+                        <th>FL380</th>
+                        <th>FL390</th>
+                        <th>FL400</th>
+                        <th>FL410</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="testF18E">10%</td>
+                        <td>1,997</td>
+                        <td>1,989</td>
+                        <td>1,964</td>
+                        <td>1,950</td>
+                        <td>1,906</td>
+                        <td>1,880</td>
+                        <td>1,834</td>
+                        <td>1,798</td>
+                        <td>1,767</td>
+                        <td>1,735</td>
+                        <td>1,712</td>
+                        <td>1,728</td>
+                        <td>1,742</td>
+                        <td>1,710</td>
+                    </tr>
+                    <tr>
+                        <td class="testF18E">25%</td>
+                        <td>2,058</td>
+                        <td>2,047</td>
+                        <td>2,017</td>
+                        <td>2,002</td>
+                        <td>1,957</td>
+                        <td>1,926</td>
+                        <td>1,888</td>
+                        <td>1,852</td>
+                        <td>1,820</td>
+                        <td>1,838</td>
+                        <td>1,855</td>
+                        <td>1,866</td>
+                        <td>1,861</td>
+                        <td>1,806</td>
+                    </tr>
+                    <tr>
+                        <td class="testF18E">50%</td>
+                        <td>2,196</td>
+                        <td>2,140</td>
+                        <td>2,125</td>
+                        <td>2,093</td>
+                        <td>2,055</td>
+                        <td>2,050</td>
+                        <td>2,035</td>
+                        <td>2,034</td>
+                        <td>2,113</td>
+                        <td>2,135</td>
+                        <td>2,170</td>
+                        <td>2,154 <br> ***</td>
+                        <td>2,130 <br> ***</td>
+                        <td>2,080 <br> ***</td>
+                    </tr>
+                    <tr>
+                        <td class="testF18E">75%</td>
+                        <td>2,326</td>
+                        <td>2,310</td>
+                        <td>2,296</td>
+                        <td>2,263</td>
+                        <td>2,265</td>
+                        <td>2,300</td>
+                        <td>2,310</td>
+                        <td>2,339</td>
+                        <td>2,430</td>
+                        <td>2,550 <br> ***</td>
+                        <td>2,625 <br> ***</td>
+                        <td>2,630 <br> ***</td>
+                        <td>2,500 <br> ****</td>
+                        <td>-----</td>
+                    </tr>
+                    <tr>
+                        <td class="testF18E">100%</td>
+                        <td>2,610</td>
+                        <td>2,620</td>
+                        <td>2,575</td>
+                        <td>2,496</td>
+                        <td>2,510</td>
+                        <td>2,538</td>
+                        <td>2,690</td>
+                        <td>2,820 <br> ***</td>
+                        <td>3,000 <br> ***</td>
+                        <td>3,205 <br> ***</td>
+                        <td>3,068 <br> ****</td>
+                        <td>-----</td>
+                        <td>-----</td>
+                        <td>-----</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+    <!------F18E Generel Information IF------>
+
+    <section class="220generalinformation">
+        <div class="F18Egeneralinformation">
+            <h2>F18E Information</h2>
+            <p>Information about the F18E in Infinite Flight</p>
+            <p>Below are the current liveries available in Infinite Flight</p>
+            <table class="liverytable">
+                <thead>
+                    <tr>
+                        <th>North American Liveries</th>
+                        <th>South American Liveries</th>
+                        <th>European Liveries</th>
+                        <th>African Liveries</th>
+                        <th>Australian - Asian Liveries</th>
+                        <th>Middle Eastern Liveries</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>JetBlue <br> Air Canada <br> Bombardier <br> Delta Air Lines <br> Breeze </td>
+                        <td>None in app yet</td>
+                        <td>AirBaltic <br> Air Baltic (Special) <br> F18E <br> Swiss <br> Air France </td>
+                        <td>Air Austral <br> Air Tanzania <br> EgyptAir <br> EgyptAir Express <br> Ibom Air</td>
+                        <td>Korean Air <br> Air Vanatu </td>
+                        <td>Air Manas</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+    <!---F18E Information Colomn--->
+
+    <div class="row">
+        <div class="F18Erange-col">
+            <h3>Range</h3>
+            <p>Being an extremely economically friendly aircraft, the F18E has a range of 07:49 of flight time. That is 17,400 kg's of fuel.</p>
+        </div>
+        <div class="F18Epassengercount-col">
+            <h3>Passenger Numbers</h3>
+            <p>The F18E can hold a maximum of 160 passengers. That is 12,320 kg's.</p>
+        </div>
+        <div class="F18EMTOWandMLW-col">
+            <h3>MTOW and MLW</h3>
+            <p>The MTOW of the F18E is 70,900 kg's. The MLW is 60,600</p>
+        </div>
+        <div class="F18Einfo-col">
+            <h3>Interesting Information</h3>
+            <p>The F18E can fly routes of up to 7 hours. Beating almost every single aisle aircraft besides the F18E A321 XLR. This allows airlines such as AirBaltic to fly routes such as Riga - Dubai.</p>
+        </div>
+    </div>
+
+    <!------F18E Information IRL------>
+
+    <section class="F18Einformationirl">
+        <div class="F18EinformationIRL">
+            <h2>F18E development Timeline</h2>
+            <p>Here is a timeline about the F18E development in Infinite Flight</p>
+        </div>
+        <div class="timeline">
+            <div class="container left">
+              <div class="contentF18E2020">
+                <h2>December 13th 2021</h2>
+                <p>The F18E is released to the public with Infinite Flight 21.8</p>
+                <a href="https://infiniteflight.com/blog/infinite-flight-21-8">
+                    <img src="images/Blog.jpg">
+                  </a>
+              </div>
+            </div>
+            <div class="container right">
+              <div class="F18Efirstlook">
+                <h2>December 10th 2021</h2>
+                <p>Infinite Flight shares the first look at 21.8</p>
+                <iframe class="F18Efirstlookvideo" width="550" height="300" src="https://www.youtube.com/embed/w2r9OsKnKrI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
+            </div>
+            <div class="container left">
+                <div class="enginesF18E">
+                  <h2>December 2nd 2021</h2>
+                  <p>The F18E engine is showed in a short GIF</p>
+                  <a href="https://twitter.com/infiniteflight/status/1466442715340627971?cxt=HHwWhoCztan47NkoAAAA">
+                    <img src="images/unknown (2).png">
+                  </a>
+                </div>
+          </div>
+          <div class="container right">
+            <div class="F18Ecockpitcomestolife">
+              <h2>November 30th 2021</h2>
+              <p>The F18E cockpit has come to life</p>
+              <iframe class="F18Escreenscometolife" width="550" height="300" src="https://www.youtube.com/embed/OTZK8YW4Ass" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+          </div>
+          <div class="container left">
+            <div class="completeF18Ecockpit">
+              <h2>November 26th 2021</h2>
+              <p>The F18E cockpit is complete</p>
+              <a href="https://twitter.com/infiniteflight/status/1463880050609164294/photo/1">
+                  <img src="images/FFC93V7WQAQe-Ur.jpg">
+                </a>
+            </div>
+          </div>
+          <div class="container right">
+            <div class="F18Ehighpolyengineshot2">
+              <h2>November 2nd 2021</h2>
+              <p>Exterior F18E WIP Shot</p>
+              <a href="https://twitter.com/infiniteflight/status/1455613661041545225/photo/1"><img src="images/FDNgkG3XoAExSVl.jpg" alt=""></a>
+            </div>
+          </div>
+          <div class="container left">
+            <div class="gearandenginesshotF18E">
+              <h2>October 12th 2021</h2>
+              <p>More Angles WIP</p>
+              <a href="https://twitter.com/infiniteflight/status/1463880050609164294/photo/1">
+                  <img src="images/FBu_ixyX0AAq3kE.jpg">
+                </a>
+            </div>
+          </div>
+          <div class="container right">
+            <div class="firstothershotofF18E">
+              <h2>September 18th 2021</h2>
+              <p>First shot shown since the F18E development was announced</p>
+              <a href="https://twitter.com/infiniteflight/status/1439269437815803910"><img src="images/E_lO9OKXEAAqZba.jpg" alt=""></a>
+            </div>
+          </div>
+          <div class="container left">
+            <div class="F18Eisannounced">
+              <h2>September 17th 2021</h2>
+              <p>Coming to Infinite Flight: F18E</p>
+              <a href="https://twitter.com/infiniteflight/status/1438944786803826693">
+                  <img src="images/E_ghl4dWQAQ5Wep.jpg">
+                </a>
+            </div>
+          </div>
+    </section>
+
+    <!---Footer--->
+
+    <section class="footer">
+        <div class="footer1">
+            <h2>Disclaimer</h2>
+            <p>Infinite Flight Bag - IFB is in no way affiliated with Infinite Flight LLC.</p>
+            <p>Infinite Flight Bag is a community project proudly designed and built by Average_Gamer in house.</p>
+            <p>Infinite Flight Bag - 2022</p>
+        </div>
+    </section>
+
+    <!------ JAVASCRPIT FOR TOGGLE MENU------>
+
+    <script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+    </script>
+    
+</body>
+</html>

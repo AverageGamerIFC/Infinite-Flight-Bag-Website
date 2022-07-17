@@ -1,0 +1,1928 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.header{
+    min-height: 80vh;
+    width: 100%;
+    background-image: 
+    linear-gradient(rgba(93, 94, 100, 0.7), rgba(4,9,30,0.7)), url(images/InfiniteFlight_2022-07-09-19-29-44.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.footer{
+    margin-top: 20px;
+    text-align: center;
+    background-color: #a8a8a8;
+    color: #ffff;
+    padding-left: 10vh;
+    padding-right: 10vh;
+    min-height: 40vh;  
+}
+.footer h2{
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
+
+.footer p{
+    text-align: center;
+    color: #ffff;
+    margin-left: -10px;
+}
+
+nav{
+    display: flex;
+    padding-left: 20px;
+    padding-right: 20px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+}
+
+nav img{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    max-width: 70px;
+    max-height: 70px;
+    padding-left: 30px;
+}
+
+.nav-links{
+    flex: 1;
+    text-align: right;
+}
+
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 30px 12px;
+    position: relative;
+}
+
+.nav-links ul li a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.nav-links ul li::after{
+    content: "";
+    width: 0%;
+    height: 1.5px;
+    background: #fbff00;
+    display: block;
+    margin-top: 2px;
+    transition: 0.5s;
+}
+
+.nav-links ul li:hover::after{
+    width: 100%;
+}
+
+.text-box{
+    width: 90%;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+
+.text-box h1{
+    padding-top: 50px;
+    font-size: 45px;
+}
+
+.text-box p{
+    margin-top: 10px;
+    font-size: 20px;
+    color: #ffff;
+    font-weight: 600;
+}
+
+.hero-btn{
+    display: inline-block;
+    text-decoration: none;
+    color: #ffff;
+    border: 1px solid #ffff;
+    padding: 12px 34px;
+    font-size: 15px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+
+.hero-btn:hover{
+    border: 1px solid #f44336;
+    background: #f44336;
+    transition: ease 1s;
+}
+
+nav .fa-solid{
+    display: none;
+}
+
+@media(max-width: 700px){
+    .text-box h1{
+        font-size: 30px;
+    }
+    .text-box p{
+        margin-top: 5px;
+        font-size: 15px;
+    }
+    .nav-links ul li{
+        display: block;
+    }
+    .nav-links{
+        position: absolute;
+        background: #f44336;
+        height: 100vh;
+        width: 200px;
+        top: 0;
+        right: -200vh;
+        text-align: center;
+        z-index: 2;
+        transition: 0.5s;
+    }
+    nav .fa-solid{
+        display: block;
+        color: rgb(255, 255, 255);
+        margin: 10px;
+        font-size: 22px;
+        cursor: pointer;
+        margin-right: 0vh;
+    }
+}
+
+/*---performance page---*/
+
+.sub-header{
+    min-height: 80vh;
+    width: 100%;
+    background-image: 
+    linear-gradient(rgba(93, 94, 100, 0.7), rgba(100, 100, 100, 0.7)), url(images/InfiniteFlight_2022-07-10-15-22-33.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: #ffff;
+}
+
+.sub-header h1{
+    margin-top: 150px;
+    align-items: center;
+    font-size: 55px;
+}
+
+.sub-header p{
+    font-size: 20px;
+    color: #ffff;
+    font-weight: 500;
+}
+
+.airbus {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+}
+
+h1 {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+p{
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+    font-weight: 300;
+    line-height: 22px;
+    padding-bottom: 30px;
+}
+
+.airbusheader{
+    color: #000000;
+}
+
+.airbusheader h1{
+    font-weight: 600;
+    font-size: 40px;
+}
+
+.airbusheader p{
+    font-weight: 300;
+    font-size: 15px;
+}
+
+.row{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.airbus220-col{
+    flex-basis: 23%;
+    background: #ffffff;
+    border-radius: 10px;
+    margin-bottom: 6%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+
+h3{
+    text-align: center;
+    font-weight: 600;
+    margin: 10;
+}
+
+.airbus220-btn{
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    border: 1px solid rgb(0, 0, 0);
+    padding: 12px 34px;
+    font-size: 15px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+
+.airbus220-btn:hover{
+    border: 1px solid #1969ff;
+    background: #1969ff;
+    transition: ease 1s;
+}
+
+.airbus220-col:hover{
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+}
+
+.row{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.airbus318-col{
+    flex-basis: 23%;
+    background: #ffffff;
+    border-radius: 10px;
+    margin-bottom: 6%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+
+h3{
+    text-align: center;
+    font-weight: 600;
+    margin: 10;
+}
+
+.airbus318-btn{
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    border: 1px solid rgb(0, 0, 0);
+    padding: 12px 34px;
+    font-size: 15px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+
+.airbus318-btn:hover{
+    border: 1px solid #1969ff;
+    background: #1969ff;
+    transition: ease 1s;
+}
+
+.airbus318-col:hover{
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+}
+
+.airbus318-col:hover{
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+}
+
+.row{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.airbus319-col{
+    flex-basis: 23%;
+    background: #ffffff;
+    border-radius: 10px;
+    margin-bottom: 6%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+
+h3{
+    text-align: center;
+    font-weight: 600;
+    margin: 10;
+}
+
+.airbus319-btn{
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    border: 1px solid rgb(0, 0, 0);
+    padding: 12px 34px;
+    font-size: 15px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+
+.airbus319-btn:hover{
+    border: 1px solid #1969ff;
+    background: #1969ff;
+    transition: ease 1s;
+}
+
+.airbus319-col:hover{
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+}
+
+.airbus319-col:hover{
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+}
+
+.row{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.airbus320-col{
+    flex-basis: 23%;
+    background: #ffffff;
+    border-radius: 10px;
+    margin-bottom: 6%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+
+h3{
+    text-align: center;
+    font-weight: 600;
+    margin: 10;
+}
+
+.airbus320-btn{
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    border: 1px solid rgb(0, 0, 0);
+    padding: 12px 34px;
+    font-size: 15px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+
+.airbus320-btn:hover{
+    border: 1px solid #1969ff;
+    background: #1969ff;
+    transition: ease 1s;
+}
+
+.airbus320-col:hover{
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+}
+
+.airbus320-col:hover{
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+}
+
+.airbuscont {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+h1 {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+p{
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+    font-weight: 300;
+    line-height: 22px;
+    padding-bottom: 30px;
+}
+
+.airbusheader{
+    color: #000000;
+}
+
+.airbusheader h1{
+    font-weight: 600;
+    font-size: 40px;
+}
+
+.airbusheader p{
+    font-weight: 600;
+}
+
+.airbus321-col{
+    flex-basis: 23%;
+    background: #ffffff;
+    border-radius: 10px;
+    margin-bottom: 6%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+
+h3{
+    text-align: center;
+    font-weight: 600;
+    margin: 10;
+}
+
+.airbus321-btn{
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    border: 1px solid rgb(0, 0, 0);
+    padding: 12px 34px;
+    font-size: 15px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+
+.airbus321-btn:hover{
+    border: 1px solid #1969ff;
+    background: #1969ff;
+    transition: ease 1s;
+}
+
+.airbus321-col:hover{
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+}
+
+.row{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.airbus33F-col{
+    flex-basis: 23%;
+    background: #ffffff;
+    border-radius: 10px;
+    margin-bottom: 6%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+
+h3{
+    text-align: center;
+    font-weight: 600;
+    margin: 10;
+}
+
+.airbus33F-btn{
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    border: 1px solid rgb(0, 0, 0);
+    padding: 12px 34px;
+    font-size: 15px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+
+.airbus33F-btn:hover{
+    border: 1px solid #1969ff;
+    background: #1969ff;
+    transition: ease 1s;
+}
+
+.airbus33F-col:hover{
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+}
+
+.airbus33F-col:hover{
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+}
+
+.row{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.airbus333-col{
+    flex-basis: 23%;
+    background: #ffffff;
+    border-radius: 10px;
+    margin-bottom: 6%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+
+h3{
+    text-align: center;
+    font-weight: 600;
+    margin: 10;
+}
+
+.airbus333-btn{
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    border: 1px solid rgb(0, 0, 0);
+    padding: 12px 34px;
+    font-size: 15px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+
+.airbus333-btn:hover{
+    border: 1px solid #1969ff;
+    background: #1969ff;
+    transition: ease 1s;
+}
+
+.airbus333-col:hover{
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+}
+
+.airbus333-col:hover{
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+}
+
+.row{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.airbus339-col{
+    flex-basis: 23%;
+    background: #ffffff;
+    border-radius: 10px;
+    margin-bottom: 6%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+
+h3{
+    text-align: center;
+    font-weight: 600;
+    margin: 10;
+}
+
+.airbus339-btn{
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    border: 1px solid rgb(0, 0, 0);
+    padding: 12px 34px;
+    font-size: 15px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+
+.airbus339-btn:hover{
+    border: 1px solid #1969ff;
+    background: #1969ff;
+    transition: ease 1s;
+}
+
+.airbus339-col:hover{
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+}
+
+.airbus339-col:hover{
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+}
+
+.airbuscontfinal {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+h1 {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+p{
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+    font-weight: 300;
+    line-height: 22px;
+    padding-bottom: 30px;
+}
+
+.airbusheader{
+    color: #000000;
+}
+
+.airbusheader h1{
+    font-weight: 600;
+    font-size: 40px;
+}
+
+.airbusheader p{
+    font-weight: 600;
+}
+
+.row{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.airbus346-col{
+    flex-basis: 23%;
+    background: #ffffff;
+    border-radius: 10px;
+    margin-bottom: 6%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+
+h3{
+    text-align: center;
+    font-weight: 600;
+    margin: 10;
+}
+
+.airbus346-btn{
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    border: 1px solid rgb(0, 0, 0);
+    padding: 12px 34px;
+    font-size: 15px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+
+.airbus346-btn:hover{
+    border: 1px solid #1969ff;
+    background: #1969ff;
+    transition: ease 1s;
+}
+
+.airbus346-col:hover{
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+}
+
+.row{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.airbus359-col{
+    flex-basis: 23%;
+    background: #ffffff;
+    border-radius: 10px;
+    margin-bottom: 6%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+
+h3{
+    text-align: center;
+    font-weight: 600;
+    margin: 10;
+}
+
+.airbus359-btn{
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    border: 1px solid rgb(0, 0, 0);
+    padding: 12px 34px;
+    font-size: 15px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+
+.airbus359-btn:hover{
+    border: 1px solid #1969ff;
+    background: #1969ff;
+    transition: ease 1s;
+}
+
+.airbus359-col:hover{
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+}
+
+.airbus359-col:hover{
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+}
+
+.row{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.airbus380-col{
+    flex-basis: 23%;
+    background: #ffffff;
+    border-radius: 10px;
+    margin-bottom: 6%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+
+h3{
+    text-align: center;
+    font-weight: 600;
+    margin: 10;
+}
+
+.airbus380-btn{
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    border: 1px solid rgb(0, 0, 0);
+    padding: 12px 34px;
+    font-size: 15px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+
+.airbus380-btn:hover{
+    border: 1px solid #1969ff;
+    background: #1969ff;
+    transition: ease 1s;
+}
+
+.airbus380-col:hover{
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+}
+
+.airbus380-col:hover{
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+}
+
+.airbusfooter p{
+    font-weight: 300;
+}
+
+.airbuscontfinalimage{
+    min-height: 80vh;
+    width: 100%;
+    background-image: url(images/InfiniteFlight_2022-07-12-06-46-07.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: #ffff;
+}
+
+.boeing {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+}
+
+h1 {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+p{
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+    font-weight: 300;
+    line-height: 22px;
+    padding-bottom: 30px;
+}
+
+.boeingheader{
+    color: #000000;
+}
+
+.boeingheader h1{
+    font-weight: 600;
+    font-size: 40px;
+}
+
+.boeingheader p{
+    font-weight: 600;
+}
+
+.row{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.boeing712-col{
+    flex-basis: 23%;
+    background: #ffffff;
+    border-radius: 10px;
+    margin-bottom: 6%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+
+h3{
+    text-align: center;
+    font-weight: 600;
+    margin: 10;
+}
+
+.boeing712-btn{
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    border: 1px solid rgb(0, 0, 0);
+    padding: 12px 34px;
+    font-size: 15px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+
+.boeing712-btn:hover{
+    border: 1px solid #1969ff;
+    background: #1969ff;
+    transition: ease 1s;
+}
+
+.boeing712-col:hover{
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+}
+
+.row{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.boeing737-col{
+    flex-basis: 23%;
+    background: #ffffff;
+    border-radius: 10px;
+    margin-bottom: 6%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+
+h3{
+    text-align: center;
+    font-weight: 600;
+    margin: 10;
+}
+
+.boeing737-btn{
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    border: 1px solid rgb(0, 0, 0);
+    padding: 12px 34px;
+    font-size: 15px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+
+.boeing737-btn:hover{
+    border: 1px solid #1969ff;
+    background: #1969ff;
+    transition: ease 1s;
+}
+
+.boeing737-col:hover{
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+}
+
+.boeing737-col:hover{
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+}
+
+.row{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.boeing738-col{
+    flex-basis: 23%;
+    background: #ffffff;
+    border-radius: 10px;
+    margin-bottom: 6%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+
+h3{
+    text-align: center;
+    font-weight: 600;
+    margin: 10;
+}
+
+.boeing738-btn{
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    border: 1px solid rgb(0, 0, 0);
+    padding: 12px 34px;
+    font-size: 15px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+
+.boeing738-btn:hover{
+    border: 1px solid #1969ff;
+    background: #1969ff;
+    transition: ease 1s;
+}
+
+.boeing738-col:hover{
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+}
+
+.boeing738-col:hover{
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+}
+
+.row{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.boeing739-col{
+    flex-basis: 23%;
+    background: #ffffff;
+    border-radius: 10px;
+    margin-bottom: 6%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+
+h3{
+    text-align: center;
+    font-weight: 600;
+    margin: 10;
+}
+
+.boeing739-btn{
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    border: 1px solid rgb(0, 0, 0);
+    padding: 12px 34px;
+    font-size: 15px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+
+.boeing739-btn:hover{
+    border: 1px solid #1969ff;
+    background: #1969ff;
+    transition: ease 1s;
+}
+
+.boeing739-col:hover{
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+}
+
+.boeing739-col:hover{
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+}
+
+.boeingcont {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+}
+
+h1 {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+p{
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+    font-weight: 300;
+    line-height: 22px;
+    padding-bottom: 30px;
+}
+
+.boeingheader{
+    color: #000000;
+}
+
+.boeingheader h1{
+    font-weight: 600;
+    font-size: 40px;
+}
+
+.boeingheader p{
+    font-weight: 600;
+}
+
+.row{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.boeing742-col{
+    flex-basis: 23%;
+    background: #ffffff;
+    border-radius: 10px;
+    margin-bottom: 6%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+
+h3{
+    text-align: center;
+    font-weight: 600;
+    margin: 10;
+}
+
+.boeing742-btn{
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    border: 1px solid rgb(0, 0, 0);
+    padding: 12px 34px;
+    font-size: 15px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+
+.boeing742-btn:hover{
+    border: 1px solid #1969ff;
+    background: #1969ff;
+    transition: ease 1s;
+}
+
+.boeing742-col:hover{
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+}
+
+.row{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.boeing744-col{
+    flex-basis: 23%;
+    background: #ffffff;
+    border-radius: 10px;
+    margin-bottom: 6%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+
+h3{
+    text-align: center;
+    font-weight: 600;
+    margin: 10;
+}
+
+.boeing744-btn{
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    border: 1px solid rgb(0, 0, 0);
+    padding: 12px 34px;
+    font-size: 15px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+
+.boeing744-btn:hover{
+    border: 1px solid #1969ff;
+    background: #1969ff;
+    transition: ease 1s;
+}
+
+.boeing744-col:hover{
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+}
+
+.boeing744-col:hover{
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+}
+
+.row{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.boeing748-col{
+    flex-basis: 23%;
+    background: #ffffff;
+    border-radius: 10px;
+    margin-bottom: 6%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+
+h3{
+    text-align: center;
+    font-weight: 600;
+    margin: 10;
+}
+
+.boeing748-btn{
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    border: 1px solid rgb(0, 0, 0);
+    padding: 12px 34px;
+    font-size: 15px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+
+.boeing748-btn:hover{
+    border: 1px solid #1969ff;
+    background: #1969ff;
+    transition: ease 1s;
+}
+
+.boeing748-col:hover{
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+}
+
+.boeing748-col:hover{
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+}
+
+.row{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.boeing74sc-col{
+    flex-basis: 23%;
+    background: #ffffff;
+    border-radius: 10px;
+    margin-bottom: 6%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+
+h3{
+    text-align: center;
+    font-weight: 600;
+    margin: 10;
+}
+
+.boeing74sc-btn{
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    border: 1px solid rgb(0, 0, 0);
+    padding: 12px 34px;
+    font-size: 15px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+
+.boeing74sc-btn:hover{
+    border: 1px solid #1969ff;
+    background: #1969ff;
+    transition: ease 1s;
+}
+
+.boeing74sc-col:hover{
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+}
+
+.boeing74sc-col:hover{
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+}
+
+.boeingcontfurther {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+}
+
+h1 {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+p{
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+    font-weight: 300;
+    line-height: 22px;
+    padding-bottom: 30px;
+}
+
+.boeingheader{
+    color: #000000;
+}
+
+.boeingheader h1{
+    font-weight: 600;
+    font-size: 40px;
+}
+
+.boeingheader p{
+    font-weight: 600;
+}
+
+.row{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.boeing74so-col{
+    flex-basis: 23%;
+    background: #ffffff;
+    border-radius: 10px;
+    margin-bottom: 6%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+
+h3{
+    text-align: center;
+    font-weight: 600;
+    margin: 10;
+}
+
+.boeing74so-btn{
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    border: 1px solid rgb(0, 0, 0);
+    padding: 12px 34px;
+    font-size: 15px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+
+.boeing74so-btn:hover{
+    border: 1px solid #1969ff;
+    background: #1969ff;
+    transition: ease 1s;
+}
+
+.boeing74so-col:hover{
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+}
+
+.row{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.boeing752-col{
+    flex-basis: 23%;
+    background: #ffffff;
+    border-radius: 10px;
+    margin-bottom: 6%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+
+h3{
+    text-align: center;
+    font-weight: 600;
+    margin: 10;
+}
+
+.boeing752-btn{
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    border: 1px solid rgb(0, 0, 0);
+    padding: 12px 34px;
+    font-size: 15px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+
+.boeing752-btn:hover{
+    border: 1px solid #1969ff;
+    background: #1969ff;
+    transition: ease 1s;
+}
+
+.boeing752-col:hover{
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+}
+
+.boeing752-col:hover{
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+}
+
+.row{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.boeing762-col{
+    flex-basis: 23%;
+    background: #ffffff;
+    border-radius: 10px;
+    margin-bottom: 6%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+
+h3{
+    text-align: center;
+    font-weight: 600;
+    margin: 10;
+}
+
+.boeing762-btn{
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    border: 1px solid rgb(0, 0, 0);
+    padding: 12px 34px;
+    font-size: 15px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+
+.boeing762-btn:hover{
+    border: 1px solid #1969ff;
+    background: #1969ff;
+    transition: ease 1s;
+}
+
+.boeing762-col:hover{
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+}
+
+.boeing762-col:hover{
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+}
+
+.row{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.boeing772-col{
+    flex-basis: 23%;
+    background: #ffffff;
+    border-radius: 10px;
+    margin-bottom: 6%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+
+h3{
+    text-align: center;
+    font-weight: 600;
+    margin: 10;
+}
+
+.boeing772-btn{
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    border: 1px solid rgb(0, 0, 0);
+    padding: 12px 34px;
+    font-size: 15px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+
+.boeing772-btn:hover{
+    border: 1px solid #1969ff;
+    background: #1969ff;
+    transition: ease 1s;
+}
+
+.boeing772-col:hover{
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+}
+
+.boeing772-col:hover{
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+}
+
+.boeingcontevenfurther {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+}
+
+h1 {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+p{
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+    font-weight: 300;
+    line-height: 22px;
+    padding-bottom: 30px;
+}
+
+.boeingheader{
+    color: #000000;
+}
+
+.boeingheader h1{
+    font-weight: 600;
+    font-size: 40px;
+}
+
+.boeingheader p{
+    font-weight: 600;
+}
+
+.row{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.boeing77L-col{
+    flex-basis: 23%;
+    background: #ffffff;
+    border-radius: 10px;
+    margin-bottom: 6%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+
+h3{
+    text-align: center;
+    font-weight: 600;
+    margin: 10;
+}
+
+.boeing77L-btn{
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    border: 1px solid rgb(0, 0, 0);
+    padding: 12px 34px;
+    font-size: 15px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+
+.boeing77L-btn:hover{
+    border: 1px solid #1969ff;
+    background: #1969ff;
+    transition: ease 1s;
+}
+
+.boeing77L-col:hover{
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+}
+
+.row{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.boeing773-col{
+    flex-basis: 23%;
+    background: #ffffff;
+    border-radius: 10px;
+    margin-bottom: 6%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+
+h3{
+    text-align: center;
+    font-weight: 600;
+    margin: 10;
+}
+
+.boeing773-btn{
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    border: 1px solid rgb(0, 0, 0);
+    padding: 12px 34px;
+    font-size: 15px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+
+.boeing773-btn:hover{
+    border: 1px solid #1969ff;
+    background: #1969ff;
+    transition: ease 1s;
+}
+
+.boeing773-col:hover{
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+}
+
+.boeing773-col:hover{
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+}
+
+.row{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.boeing77F-col{
+    flex-basis: 23%;
+    background: #ffffff;
+    border-radius: 10px;
+    margin-bottom: 6%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+
+h3{
+    text-align: center;
+    font-weight: 600;
+    margin: 10;
+}
+
+.boeing77F-btn{
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    border: 1px solid rgb(0, 0, 0);
+    padding: 12px 34px;
+    font-size: 15px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+
+.boeing77F-btn:hover{
+    border: 1px solid #1969ff;
+    background: #1969ff;
+    transition: ease 1s;
+}
+
+.boeing77F-col:hover{
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+}
+
+.boeing77F-col:hover{
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+}
+
+.row{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.boeing788-col{
+    flex-basis: 23%;
+    background: #ffffff;
+    border-radius: 10px;
+    margin-bottom: 6%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+
+h3{
+    text-align: center;
+    font-weight: 600;
+    margin: 10;
+}
+
+.boeing788-btn{
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    border: 1px solid rgb(0, 0, 0);
+    padding: 12px 34px;
+    font-size: 15px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+
+.boeing788-btn:hover{
+    border: 1px solid #1969ff;
+    background: #1969ff;
+    transition: ease 1s;
+}
+
+.boeing788-col:hover{
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+}
+
+.boeing788-col:hover{
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+}
+
+.boeingcontfinal {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+}
+
+h1 {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+p{
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+    font-weight: 300;
+    line-height: 22px;
+    padding-bottom: 30px;
+}
+
+.boeingheader{
+    color: #000000;
+}
+
+.boeingheader h1{
+    font-weight: 600;
+    font-size: 40px;
+}
+
+.boeingheader p{
+    font-weight: 600;
+}
+
+.row{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.boeing789-col{
+    flex-basis: 23%;
+    background: #ffffff;
+    border-radius: 10px;
+    margin-bottom: 6%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+
+h3{
+    text-align: center;
+    font-weight: 600;
+    margin: 10;
+}
+
+.boeing789-btn{
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    border: 1px solid rgb(0, 0, 0);
+    padding: 12px 34px;
+    font-size: 15px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+
+.boeing789-btn:hover{
+    border: 1px solid #1969ff;
+    background: #1969ff;
+    transition: ease 1s;
+}
+
+.boeing789-col:hover{
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+}
+
+.row{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.boeing7810-col{
+    flex-basis: 23%;
+    background: #ffffff;
+    border-radius: 10px;
+    margin-bottom: 6%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+
+h3{
+    text-align: center;
+    font-weight: 600;
+    margin: 10;
+}
+
+.boeing7810-btn{
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    border: 1px solid rgb(0, 0, 0);
+    padding: 12px 34px;
+    font-size: 15px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+
+.boeing7810-btn:hover{
+    border: 1px solid #1969ff;
+    background: #1969ff;
+    transition: ease 1s;
+}
+
+.boeing7810-col:hover{
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+}
+
+.boeing7810-col:hover{
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+}
+
+.row{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.boeingC17-col{
+    flex-basis: 23%;
+    background: #ffffff;
+    border-radius: 10px;
+    margin-bottom: 6%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+
+h3{
+    text-align: center;
+    font-weight: 600;
+    margin: 10;
+}
+
+.boeingC17-btn{
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    border: 1px solid rgb(0, 0, 0);
+    padding: 12px 34px;
+    font-size: 15px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+
+.boeingC17-btn:hover{
+    border: 1px solid #1969ff;
+    background: #1969ff;
+    transition: ease 1s;
+}
+
+.boeingC17-col:hover{
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+}
+
+.boeingC17-col:hover{
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+}
+
+.row{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.boeingVC25-col{
+    flex-basis: 23%;
+    background: #ffffff;
+    border-radius: 10px;
+    margin-bottom: 6%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+
+h3{
+    text-align: center;
+    font-weight: 600;
+    margin: 10;
+}
+
+.boeingVC25-btn{
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    border: 1px solid rgb(0, 0, 0);
+    padding: 12px 34px;
+    font-size: 15px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+
+.boeingVC25-btn:hover{
+    border: 1px solid #1969ff;
+    background: #1969ff;
+    transition: ease 1s;
+}
+
+.boeingVC25-col:hover{
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+}
+
+.boeingVC25-col:hover{
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+}
+
+.boeingfooter p{
+    font-weight: 300;
+}
+
+.boeingcontfinalimage{
+    min-height: 80vh;
+    width: 100%;
+    background-image: url(images/InfiniteFlight_2022-07-12-08-46-50.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: #ffff;
+}
+
