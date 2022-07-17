@@ -71,7 +71,7 @@ nav img{
 }
 
 .nav-links ul li:hover::after{
-    width: 100%;
+    width: 200%;
 }
 
 nav .fa-solid{
@@ -92,7 +92,7 @@ nav .fa-solid{
     .nav-links{
         position: absolute;
         background: #f44336;
-        height: 100vh;
+        height: 200vh;
         width: 200px;
         top: 0;
         right: -200vh;
@@ -112,7 +112,7 @@ nav .fa-solid{
 
 .headerA320{
     min-height: 80vh;
-    width: 100%;
+    width: 200%;
     background-image: 
     linear-gradient(rgba(163, 163, 163, 0.7), rgba(48, 48, 48, 0.7)), url(images/A320Header\ \(1\).jpg);
     background-position: center;
@@ -121,21 +121,21 @@ nav .fa-solid{
     color: #ffff;
 }
 
-.airbusA320-100 h1{
+.airbusA320-200 h1{
     margin-top: 150px;
     align-items: center;
     font-size: 55px;
     color: #ffff;
     text-align: Left;
-    padding-left: 100px;
+    padding-left: 200px;
 }
 
-.airbusA320-100 p{
+.airbusA320-200 p{
     font-size: 20px;
     color: #ffff;
     font-weight: 500;
     text-align: Left;
-    padding-left: 100px;
+    padding-left: 200px;
 }
 
 /*---Welcome, Captain. A320.---*/
@@ -619,7 +619,7 @@ p{
   
   /* Full-width containers */
     .container {
-      width: 100%;
+      width: 200%;
       padding-left: 70px;
       padding-right: 25px;
     }
@@ -979,8 +979,8 @@ h3{
     margin-top: 5%;
     display: flex;
     justify-content: space-between;
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 200px;
+    padding-right: 200px;
 }
 
 .A320info-col{
