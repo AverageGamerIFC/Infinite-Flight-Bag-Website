@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Airbus A321-200 - IFBag</title>
+    <link rel="stylesheet" href="A321styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+</head>
+<body>
+
+   <!----Main Page top and navbar---->
+   
+    <section class="headerA321">
+        <nav>
+            <a href="index.html"><img src="images/92-926950_white-plane-silhouette-png.png" alt="Homepage"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="performance.html">Performance</a></li>
+                    <li><a href="index.html">InfiniteX</a></li>
+                    <li><a href="performance.html">FPLtoIF</a></li>
+                    <li><a href="performance.html">Community</a></li>
+                    <li><a href="performance.html">Discord</a></li>
+                    </div>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <div class="airbusA321-200">
+            <h1>Airbus A321-200<br></h1>
+            <p>Your full performace calculations and more</p>
+        </div>
+
+    </section>
+
+
+    <!----Welcome, Captain. Section---->
+
+    <section class="welcomeonboardcaptain318">
+        <div class="welcomeonboardcaptainA321">
+            <h2>Welcome on board, Captain.</h2>
+            <p>Here you will find everything you need in order to fly your Airbus A321 as realistically as possible. <br> Below you will find information such as Takeoff and Landing data, Cruise altitudes, Cruise speeds along with Aircraft information IRL and Infinite Flight.</p>
+        </div>
+    </section>
+
+    <section class="airbusA321performance">
+        <div class="airbusA321takeoffperformance">
+            <h2>Airbus A321 Performance</h2>
+            <h3>Below is the performance of the Airbus A321-200.</h3>
+            <p> Tests were conducted at Honolulu International Airport (PHNL) Airport Elev. 13ft <br> Winds Calm <br> Runway 08L <br> Temperature Standard (15˚C) <br> All initial pitch angles were 12.5-15˚ nose up until 2000ft. AFE (Above Field Elevation) before pitch was dropped to increase speed <br> Heavy Departure/Landing conducted at 90% load. Adjust as necessary.</p>
+            <table class="A321performancetable">
+                <thead>
+                    <tr>
+                        <th>Load %</th>
+                        <th>Takeoff Power</th>
+                        <th>Takeoff Flaps</th>
+                        <th>Rotation Speed</th>
+                        <th>V2</th>
+                        <th>Landing Flaps</th>
+                        <th>VApp ‡</th>
+                        <th>Vref</th>
+                    </tr>
+                </thead>
+                <tbody>
+                   <tr>
+                    <td>25%</td>
+                    <td>75% = 79% N1</td>
+                    <td>Flaps 1**</td>
+                    <td>130kts</td>
+                    <td>135kts</td>
+                    <td>Flaps Full</td>
+                    <td>130kts</td>
+                    <td>125kts</td>
+                  </tr>
+                  <tr>
+                    <td>50%</td>
+                    <td>80% = 87% N1</td>
+                    <td>Flaps 2**</td>
+                    <td>137kts</td>
+                    <td>140kts</td>
+                    <td>Flaps Full</td>
+                    <td>140kts</td>
+                    <td>134kts</td>
+                  </tr>
+                  <tr>
+                    <td>75%</td>
+                    <td>83% = 90% N1</td>
+                    <td>Flaps 2**</td>
+                    <td>140kts</td>
+                    <td>145kts</td>
+                    <td>Flaps Full</td>
+                    <td>147kts</td>
+                    <td>144kts</td>
+                  </tr>
+                  <tr>
+                    <td>>75%***</td>
+                    <td>90% = 95% N1</td>
+                    <td>Flaps 3**</td>
+                    <td>155kts</td>
+                    <td>160kts</td>
+                    <td>Flaps Full</td>
+                    <td>160kts</td>
+                    <td>156kts</td>
+                  </tr>
+                </tbody>
+                
+            </table>
+        </div>
+    </section>
+
+    <!------A321 Performance Table Notes------>
+
+    <section class="perftablenotes">
+        <div class="A321perftablenotes">
+            <h2>Notes</h2>
+            <p>**Note: Depending on the length of runway, weight, terrain and other considerations, a higher flap setting may be desired.
+
+                <br>***Heavy Departures/Landings: Takeoffs over 75% may result in takeoff over Maximum Takeoff Weight (MTOW). This may also result in runway overruns. This could lead to overweight landings depending on your configuration and length of flight. Consider all factors and risks.
+                
+                <br> ‡ Note: APPR is disabled for landings greater than the load below for where the Maximum Landing Weight (MLW) lies:
+                
+                62%</p>
+        </div>
+    </section>
+    
+    <!------Crusing Altitudes------>
+
+    <section class="cruisealtitudesA321">
+        <div class="cruisealtA321">
+            <h2>Cruising Altitudes</h2>
+            <p>Below is the cruising altitudes that you should use when flying your Airbus A321</p>
+        </div>
+    </section>
+
+    <!------Tables for the cruising altitudes------>
+
+    <section class="cruisetables">
+        <div class="cruisetableA321">
+            <table class="A321cruisealttable">
+                <thead>
+                    <tr>
+                        <th>Heading Odd</th>
+                        <th>Altitude</th>
+                        <th>Heading Even</th>
+                        <th>Altitude</th>
+                        <th>Heading Odd</th>
+                        <th>Altitude</th>
+                        <th>Heading Even</th>
+                        <th>Altitude</th>
+                    </tr>
+                </thead>
+                <tbody>
+                   <tr>
+                    <td>360 - 179</td>
+                    <td>10 - 30 - 50 - 70 - <br> 90 - 11 - 13 - 15 - <br> 17 - 19 - 21 - 23 - <br> 25 - 27 - 29 - 31 - <br> 33 - 35 - 37 - 39</td>
+                    <td>359 - 180</td>
+                    <td>20 - 40 - 60 - 80 - <br> 10 - 12 - 14 - 16 - <br> 18 - 20 - 22 - 24 <br> 26 - 28 - 30 - 32 - <br> 34 - 36 - 38</td>
+                    <td>360 - 179</td>
+                    <td>15 - 35</td>
+                    <td>359 - 180</td>
+                    <td>25</td>
+                  </tr>
+                </tbody>
+                
+            </table>
+        </div>
+    </section>
+
+    <!-----A200 Cruising Speeds----->
+
+    <section class="A321cruisingspeeds">
+        <div class="cruisespeedA321">
+            <h2>Cruising Speeds</h2>
+            <p>Below is the cruising speeds that you should use when flying your Airbus A321</p>
+        </div>
+    </section>
+
+    <!------A321 Cruising Speeds Table------>
+
+    <section class="220cruisespeed">
+        <div class="cruisespeed220">
+            <table class="A321cruisingspeedstable">
+                <thead>
+                    <tr>
+                        <th>Typical Cruise Speed</th>
+                        <th>Maximum Cruise Speed</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Mach 0.78 (829 km/h; 515 mph)</td>
+                        <td>Mach 0.82 (871 km/h; 541 mph)</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+    <!----A321 Fuel Burn Table---->
+
+    <section class="220fuelburn">
+        <div class="fuelburn220">
+            <h2>A321 Fuel Burn</h2>
+            <p>Below is the fuel burn of the Airbus A321</p>
+            <table class="fuelburntableA321">
+                <thead>
+                    <tr>
+                        <th class="emptyA321"></th>
+                        <th>FL280</th>
+                        <th>FL290</th>
+                        <th>FL300</th>
+                        <th>FL310</th>
+                        <th>FL321</th>
+                        <th>FL330</th>
+                        <th>FL340</th>
+                        <th>FL350</th>
+                        <th>FL360</th>
+                        <th>FL370</th>
+                        <th>FL380</th>
+                        <th>FL390</th>
+                        <th>FL400</th>
+                        <th>FL410</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="testA321">10%</td>
+                        <td>1,660</td>
+                        <td>1,680</td>
+                        <td>1,692</td>
+                        <td>1,703</td>
+                        <td>1,759</td>
+                        <td>1,720</td>
+                        <td>1,750</td>
+                        <td>1,763</td>
+                        <td>1,801</td>
+                        <td>1,810</td>
+                        <td>1,832</td>
+                        <td>1,825</td>
+                        <td>1,840</td>
+                        <td>1,834</td>
+                    </tr>
+                    <tr>
+                        <td class="testA321">25%</td>
+                        <td>1,800</td>
+                        <td>1,809</td>
+                        <td>1,864</td>
+                        <td>1,906</td>
+                        <td>1,909</td>
+                        <td>1,940</td>
+                        <td>1,941</td>
+                        <td>1,950</td>
+                        <td>1,935</td>
+                        <td>1,917</td>
+                        <td>1,919</td>
+                        <td>1,929</td>
+                        <td>1,963</td>
+                        <td>2,012</td>
+                    </tr>
+                    <tr>
+                        <td class="testA321">50%</td>
+                        <td>2,047</td>
+                        <td>2,133</td>
+                        <td>2,157</td>
+                        <td>2,190</td>
+                        <td>2,184</td>
+                        <td>2,174</td>
+                        <td>2,147</td>
+                        <td>2,140</td>
+                        <td>2,170</td>
+                        <td>2,279</td>
+                        <td>2,343</td>
+                        <td>2,420</td>
+                        <td>2,422 <br> ***</td>
+                        <td>2,370 <br> ***</td>
+                    </tr>
+                    <tr>
+                        <td class="testA321">75%</td>
+                        <td>2,360</td>
+                        <td>2,381</td>
+                        <td>2,409</td>
+                        <td>2,424</td>
+                        <td>2,446</td>
+                        <td>2,484</td>
+                        <td>2,564</td>
+                        <td>2,645</td>
+                        <td>2,784</td>
+                        <td>3,036 <br> ***</td>
+                        <td>3,150 <br> ***</td>
+                        <td>3,390 <br> ***</td>
+                        <td>-----</td>
+                        <td>-----</td>
+                    </tr>
+                    <tr>
+                        <td class="testA321">100%</td>
+                        <td>2,660</td>
+                        <td>2,773</td>
+                        <td>2,819</td>
+                        <td>2,860</td>
+                        <td>2,887</td>
+                        <td>2,997</td>
+                        <td>3,290 <br> ***</td>
+                        <td>3,494 <br> ***</td>
+                        <td>-----</td>
+                        <td>-----</td>
+                        <td>-----</td>
+                        <td>-----</td>
+                        <td>-----</td>
+                        <td>-----</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <p>*** Indicates that the engines were at 91% N1 or above. You should not be cruising at this speed. Hence you are too high and heavy. <br> ----- Indicates that the aircraft slowly looses speed and eventually stalls out at this altitude.</p>
+
+        </div>
+    </section>
+
+    <!------A321 Generel Information IF------>
+
+    <section class="220generalinformation">
+        <div class="A321generalinformation">
+            <h2>A321 Information</h2>
+            <p>Information about the A321 in Infinite Flight</p>
+            <p>Below are the current liveries available in Infinite Flight</p>
+            <table class="liverytable">
+                <thead>
+                    <tr>
+                        <th>North American Liveries</th>
+                        <th>South American Liveries</th>
+                        <th>European Liveries</th>
+                        <th>African Liveries</th>
+                        <th>Australian - Asian Liveries</th>
+                        <th>Middle Eastern - Indian Liveries</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Air Canada <br> American Airlines <br> Delta Airlines <br> Frontier - Virginia the Wolf <br> Generic <br> JetBlue <br> Spirit</td>
+                        <td>LATAM</td>
+                        <td>Aer Lingus <br> Alitalia <br> Austrian <br> British Airways <br> Finnair <br> Iberia <br> Swiss <br> Thomas Cook <br> Wizz Air</td>
+                        <td>None In App Yet</td>
+                        <td>ANA <br> Asiana Airlines <br> Cebu Pacific <br> Dragonair <br> EVA Air <br> Philippines Airlines <br> VietJet Air <br> Vietnam Airlines</td>
+                        <td>Air India <br> Etihad <br> Etihad - 2015 <br> Gulf Air <br> Middle East Airlines <br> Qatar Airways <br> Turkish Airlines </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+    <!---A321 Information Colomn--->
+
+    <div class="row">
+        <div class="A321range-col">
+            <h3>Range</h3>
+            <p>The Airbus A321 has a range of 09:46 of flight time. That is 25,244 kg's of fuel.</p>
+        </div>
+        <div class="A321passengercount-col">
+            <h3>Passenger Numbers</h3>
+            <p>The Airbus A321-200 can hold a maximum of 239 passengers. That is 18,400 kg's.</p>
+        </div>
+        <div class="A321MTOWandMLW-col">
+            <h3>MTOW and MLW</h3>
+            <p>The MTOW of the Airbus A321 is 93,800 kg's. The MLW is 77,800</p>
+        </div>
+        <div class="A321info-col">
+            <h3>Interesting Information</h3>
+            <p>The Airbus A321-200 is the longest of the A321 non NEO family of aircraft. Being a high capacity further range aircraft it was used for longer routes.</p>
+        </div>
+    </div>
+
+    <!------A321 Information IRL------>
+
+    <section class="A321informationirl">
+        <div class="A321informationIRL">
+            <h2>Airbus A321 development Timeline</h2>
+            <p>Due to the Airbus A321 being developed a few years ago there is no timeline for this aircraft.</p>
+        </div>
+    </section>
+
+    <!---Footer--->
+
+    <section class="footer">
+        <div class="footer1">
+            <h2>Disclaimer</h2>
+            <p>Infinite Flight Bag - IFB is in no way affiliated with Infinite Flight LLC.</p>
+            <p>Infinite Flight Bag is a community project proudly designed and built by Average_Gamer in house.</p>
+            <p>Infinite Flight Bag - 2022</p>
+        </div>
+    </section>
+
+    <!------ JAVASCRPIT FOR TOGGLE MENU------>
+
+    <script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+    </script>
+    
+</body>
+</html>
