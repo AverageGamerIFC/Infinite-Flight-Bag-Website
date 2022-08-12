@@ -71,7 +71,7 @@ nav img{
 }
 
 .nav-links ul li:hover::after{
-    width: 300%;
+    width: 900%;
 }
 
 nav .fa-solid{
@@ -92,10 +92,10 @@ nav .fa-solid{
     .nav-links{
         position: absolute;
         background: #f44336;
-        height: 300vh;
-        width: 300px;
+        height: 900vh;
+        width: 900px;
         top: 0;
-        right: -300vh;
+        right: -900vh;
         text-align: center;
         z-index: 2;
         transition: 0.5s;
@@ -112,7 +112,7 @@ nav .fa-solid{
 
 
 @media screen and (min-width: 1000px) {
-  .airbusa330-300 h1 {
+  .airbusa330-900 h1 {
     padding-top: 135px;
   }}
 
@@ -133,7 +133,7 @@ nav .fa-solid{
     color: #ffff;
 }
 
-.airbusa330-300 h1{
+.airbusa330-900 h1{
     margin-top: 150px;
     align-items: center;
     font-size: 55px;
@@ -142,7 +142,7 @@ nav .fa-solid{
     padding-left: 200px;
 }
 
-.airbusa330-300 p{
+.airbusa330-900 p{
     font-size: 20px;
     color: #ffff;
     font-weight: 500;
@@ -631,7 +631,7 @@ p{
   
   /* Full-width containers */
     .container {
-      width: 300%;
+      width: 900%;
       padding-left: 70px;
       padding-right: 25px;
     }
@@ -655,12 +655,6 @@ p{
     }
   }
 
-  .contenta3302020{
-    max-width: 500px;
-    max-height: 500px;
-    padding-right: 20px;
-}
-
   .contenta3302020 h2{
     padding-top: 5px;
     font-weight: 600;
@@ -672,6 +666,11 @@ p{
     padding-bottom: 20px;
     text-align: left;
     margin-left: -9px;
+  }
+
+  .contenta3302020 img{
+    max-width: 500px;
+    max-height: 500px;
   }
 
   .a330firstlook h2{
@@ -687,11 +686,9 @@ p{
     padding-bottom: 20px;
   }
 
-  .a330firstlook img{
-    max-width: 500px;
-    max-height: 500px;
+.a330firstlookvideo{
     padding-left: 20px;
-  }
+}
 
 .enginesa330 h2{
     padding-top: 6px;
@@ -707,12 +704,6 @@ p{
   }
 
   .enginesa330 img{
-    max-width: 500px;
-    max-height: 500px;
-  }
-
-  .a330cockpitcomestolife img{
-    padding-left: 20px;
     max-width: 500px;
     max-height: 500px;
   }
@@ -1000,8 +991,8 @@ h3{
     margin-top: 5%;
     display: flex;
     justify-content: space-between;
-    padding-left: 300px;
-    padding-right: 300px;
+    padding-left: 900px;
+    padding-right: 900px;
 }
 
 .a330info-col{
