@@ -655,52 +655,47 @@ p{
     }
   }
 
-  .contenta3302020{
-    max-width: 500px;
-    max-height: 500px;
-    padding-right: 20px;
-}
-
   .contenta3302020 h2{
-    padding-top: 5px;
-    font-weight: 600;
+    padding-top: 6px;
     padding-bottom: 10px;
     font-weight: 400;
   }
   .contenta3302020 p{
+    font-weight: 100;
+    padding-bottom: 20px;
+    text-align: left;
+    margin-left: -9px;
+  }
+
+  .contenta3302020 img{
+    max-width: 500px;
+    max-height: 500px;
     font-weight: 400;
+  }
+
+  .a330firstlook{
+    padding-left: 20px;
+  }
+
+  .a330firstlook p{
     padding-bottom: 20px;
     text-align: left;
     margin-left: -9px;
   }
 
   .a330firstlook h2{
-    padding-top: 5px;
-    text-align: left;
-    padding-left: 20px;
+    padding-top: 6px;
+    padding-bottom: 10px;
     font-weight: 400;
-  }
-
-  .a330firstlook p{
-    text-align: left;
-    padding-left: 20px;
-    padding-bottom: 20px;
-  }
-
-  .a330firstlook img{
-    max-width: 500px;
-    max-height: 500px;
-    padding-left: 20px;
   }
 
 .enginesa330 h2{
     padding-top: 6px;
-    font-weight: 600;
+    font-weight: 400;
     padding-bottom: 10px;
-    font-weight: 400;
   }
+
   .enginesa330 p{
-    font-weight: 400;
     padding-bottom: 20px;
     text-align: left;
     margin-left: -9px;
