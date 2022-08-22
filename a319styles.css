@@ -110,7 +110,7 @@ nav .fa-solid{
     }
 }
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 1900px) {
   .airbusA319-100 h1 {
     padding-top: 135px;
     margin-left: 100px;
@@ -119,7 +119,7 @@ nav .fa-solid{
     margin-left: 100px;
   }}
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 1900px) {
   .footer {
     padding-top: 10px;
     min-height: 30vh;
