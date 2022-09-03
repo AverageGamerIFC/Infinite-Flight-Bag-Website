@@ -71,7 +71,7 @@ nav img{
 }
 
 .nav-links ul li:hover::after{
-    width: 200%;
+    width: 100%;
 }
 
 nav .fa-solid{
