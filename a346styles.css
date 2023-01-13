@@ -2,9 +2,9 @@
     margin: 0;
     padding: 0;
     font-family: 'Ubuntu', sans-serif;
-}
-
-.footer{
+  }
+  
+  .footer{
     margin-top: 20px;
     text-align: center;
     background-color: #a8a8a8;
@@ -12,55 +12,55 @@
     padding-left: 10vh;
     padding-right: 10vh;
     min-height: 40vh;  
-}
-.footer h2{
+  }
+  .footer h2{
     text-align: center;
     padding-top: 50px;
     padding-bottom: 10px;
-}
-
-.footer p{
+  }
+  
+  .footer p{
     text-align: center;
     color: #ffff;
     margin-left: -10px;
-}
-
-nav{
+  }
+  
+  nav{
     display: flex;
     padding-left: 20px;
     padding-right: 20px;
     justify-content: space-between;
     align-items: center;
     background-color: rgb(0, 0, 0);
-}
-
-nav img{
+  }
+  
+  nav img{
     padding-top: 10px;
     padding-bottom: 10px;
     max-width: 70px;
     max-height: 70px;
     padding-left: 30px;
-}
-
-.nav-links{
+  }
+  
+  .nav-links{
     flex: 1;
     text-align: right;
-}
-
-.nav-links ul li{
+  }
+  
+  .nav-links ul li{
     list-style: none;
     display: inline-block;
     padding: 30px 12px;
     position: relative;
-}
-
-.nav-links ul li a{
+  }
+  
+  .nav-links ul li a{
     color: rgb(255, 255, 255);
     text-decoration: none;
     font-size: 18px;
-}
-
-.nav-links ul li::after{
+  }
+  
+  .nav-links ul li::after{
     content: "";
     width: 0%;
     height: 1.5px;
@@ -68,17 +68,17 @@ nav img{
     display: block;
     margin-top: 2px;
     transition: 0.5s;
-}
-
-.nav-links ul li:hover::after{
+  }
+  
+  .nav-links ul li:hover::after{
     width: 100%;
-}
-
-nav .fa-solid{
+  }
+  
+  nav .fa-solid{
     display: none;
-}
-
-@media(max-width: 700px){
+  }
+  
+  @media(max-width: 700px){
     .text-box h1{
         font-size: 30px;
     }
@@ -108,85 +108,86 @@ nav .fa-solid{
         cursor: pointer;
         margin-right: 0vh;
     }
-}
-
-@media screen and (min-width: 1900px) {
-  .airbusA320-200 h1 {
+  }
+  
+  
+  @media screen and (min-width: 1900px) {
+  .airbusA339-200 h1 {
     padding-top: 135px;
   }}
-
-@media screen and (min-width: 1900px) {
+  
+  @media screen and (min-width: 1900px) {
   .footer {
     padding-top: 10px;
     min-height: 30vh;
   }}
-
-.headerA320{
+  
+  .headerA339{
     min-height: 80vh;
     width: 100%;
     background-image: 
-    linear-gradient(rgba(163, 163, 163, 0.7), rgba(48, 48, 48, 0.7)), url(images/A320Header\ \(2\).jpg);
+    linear-gradient(rgba(163, 163, 163, 0.7), rgba(48, 48, 48, 0.7)), url(images/A339Header\ \(1\).jpg);
     background-position: center;
     background-size: cover;
     text-align: center;
     color: #ffff;
-}
-
-.airbusA320-200 h1{
+  }
+  
+  .airbusA339-200 h1{
     margin-top: 150px;
     align-items: center;
     font-size: 55px;
     color: #ffff;
     text-align: Left;
     padding-left: 200px;
-}
-
-.airbusA320-200 p{
+  }
+  
+  .airbusA339-200 p{
     font-size: 20px;
     color: #ffff;
     font-weight: 500;
     text-align: Left;
     padding-left: 200px;
-}
-
-/*---Welcome, Captain. A320.---*/
-
-.welcomeonboardcaptain318 {
+  }
+  
+  /*---Welcome, Captain. A339.---*/
+  
+  .welcomeonboardcaptain318 {
     width: 80%;
     margin: auto;
     text-align: center;
     padding-top: 50px;
-}
-
-h2 {
+  }
+  
+  h2 {
     font-size: 40px;
     font-weight: 600;
-}
-
-p{
+  }
+  
+  p{
     font-size: 15px;
     color: rgb(0, 0, 0);
     font-weight: 400;
     line-height: 22px;
     padding: 20px;
-}
-
-/*---Airbus A320 Performance information---*/
-
-.airbusA320takeoffperformance h2{
+  }
+  
+  /*---Airbus A339 Performance information---*/
+  
+  .airbusA339takeoffperformance h2{
     text-align: center;
     font-size: 30px;
     padding-top: 20px;
-}
-
-.airbusA320takeoffperformance h3{
+  }
+  
+  .airbusA339takeoffperformance h3{
     text-align: center;
     font-size: 20px;
     font-weight: 400;
     padding-top: 20px;
-}
-
-.A320performancetable{
+  }
+  
+  .A339performancetable{
     border-collapse: collapse;
     margin: 25px 0;
     font-size: 0.9rem;
@@ -196,58 +197,58 @@ p{
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
     margin-left: auto;
     margin-right: auto;
-}
-
-.A320performancetable thead tr{
+  }
+  
+  .A339performancetable thead tr{
     background-color: #3a7fff;
     color: #ffff;
     text-align: left;
     font-weight: 400;
-}
-
-.A320performancetable th, td{
+  }
+  
+  .A339performancetable th, td{
     padding: 12px 15px;
-
-}
-
-.A320performancetable tbody tr{
+  
+  }
+  
+  .A339performancetable tbody tr{
     border-bottom: 1px solid #dddddd;
-}
-
-.A320performancetable tbody tr:nth-of-type(even){
+  }
+  
+  .A339performancetable tbody tr:nth-of-type(even){
     background-color: #f3f3f3f3;
-}
-
-.A320performancetable tbody tr:nth-last-of-type(){
+  }
+  
+  .A339performancetable tbody tr:nth-last-of-type(){
     border-bottom: 2px solid #3a7fff;
-}
-
-.A320performancetable tbody tr.active-row{
+  }
+  
+  .A339performancetable tbody tr.active-row{
     font-weight: 400;
     color: #3a7fff;
-}
-
-
-
-/*Table for Mobile*/
-
-@media
-	only screen 
+  }
+  
+  
+  
+  /*Table for Mobile*/
+  
+  @media
+  only screen 
     and (max-width: 760px), (min-device-width: 768px) 
     and (max-device-width: 1024px)  {
-
-		/* Force table to not be like tables anymore */
-		table, thead, tbody, th, td, tr {
-			display: block;
-		}
-
-		/* Hide table headers (but not display: none;, for accessibility) */
-		thead tr {
-			position: absolute;
-			top: -9999px;
-			left: -9999px;
-		}
-
+  
+    /* Force table to not be like tables anymore */
+    table, thead, tbody, th, td, tr {
+      display: block;
+    }
+  
+    /* Hide table headers (but not display: none;, for accessibility) */
+    thead tr {
+      position: absolute;
+      top: -9999px;
+      left: -9999px;
+    }
+  
     tr {
       margin: 0 0 1rem 0;
     }
@@ -256,61 +257,61 @@ p{
       background: #ccc;
     }
     
-		td {
-			/* Behave  like a "row" */
-			border: none;
-			border-bottom: 1px solid #eee;
-			position: relative;
-			padding-left: 50%;
-		}
-
-		td:before {
-			/* Now like a table header */
-			position: absolute;
-			/* Top/left values mimic padding */
-			top: 0;
-			left: 6px;
-			width: 45%;
-			padding-right: 10px;
-			white-space: nowrap;
-		}}
-
-.cruisealtitudesA320 {
+    td {
+      /* Behave  like a "row" */
+      border: none;
+      border-bottom: 1px solid #eee;
+      position: relative;
+      padding-left: 50%;
+    }
+  
+    td:before {
+      /* Now like a table header */
+      position: absolute;
+      /* Top/left values mimic padding */
+      top: 0;
+      left: 6px;
+      width: 45%;
+      padding-right: 10px;
+      white-space: nowrap;
+    }}
+  
+  .cruisealtitudesA339 {
     width: 80%;
     margin: auto;
     text-align: center;
     padding-top: 20px;
-}
+  }
                 
-h2 {
+  h2 {
     font-size: 30px;
     font-weight: 600;
-}
+  }
                 
-p{
+  p{
     font-size: 15px;
     color: rgb(0, 0, 0);
     font-weight: 400;
     line-height: 22px;
     padding: 20px;
     text-align: center;
-}
-
-/* A320 Performance Table Notes */
-
-.A320perftablenotes h2{
+  }
+  
+  /* A339 Performance Table Notes */
+  
+  .A339perftablenotes h2{
     text-align: center;
-}
-
-.A320perftablenotes p{
+  }
+  
+  .A339perftablenotes p{
     text-align: center;
     padding-left: 20vh;
     padding-right: 20vh;
-}
-
-/* Cruise altitude table */
-
-.A320cruisealttable{
+  }
+  
+  /* Cruise altitude table */
+  
+  .A339cruisealttable{
     border-collapse: collapse;
     margin: 25px 0;
     font-size: 0.9rem;
@@ -320,63 +321,63 @@ p{
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
     margin-left: auto;
     margin-right: auto;
-}
-
-.A320cruisealttable thead tr{
+  }
+  
+  .A339cruisealttable thead tr{
     background-color: #3a7fff;
     color: #ffff;
     text-align: left;
     font-weight: 400;
-}
-
-.A320cruisealttable th, td{
+  }
+  
+  .A339cruisealttable th, td{
     padding: 12px 15px;
-
-}
-
-.A320cruisealttable tbody tr{
+  
+  }
+  
+  .A339cruisealttable tbody tr{
     border-bottom: 1px solid #dddddd;
-}
-
-.A320cruisealttable tbody tr:nth-of-type(even){
+  }
+  
+  .A339cruisealttable tbody tr:nth-of-type(even){
     background-color: #f3f3f3f3;
-}
-
-.A320cruisealttable tbody tr:nth-last-of-type(){
+  }
+  
+  .A339cruisealttable tbody tr:nth-last-of-type(){
     border-bottom: 2px solid #3a7fff;
-}
-
-.A320cruisealttable tbody tr.active-row{
+  }
+  
+  .A339cruisealttable tbody tr.active-row{
     font-weight: 400;
     color: #3a7fff;
-}
-
-/* Cruise Speeds H2 and P */
-
-.cruisespeedA320 {
+  }
+  
+  /* Cruise Speeds H2 and P */
+  
+  .cruisespeedA339 {
     width: 80%;
     margin: auto;
     text-align: center;
     padding-top: 20px;
-}
+  }
                 
-h2 {
+  h2 {
     font-size: 30px;
     font-weight: 600;
-}
+  }
                 
-p{
+  p{
     font-size: 15px;
     color: rgb(0, 0, 0);
     font-weight: 400;
     line-height: 22px;
     padding: 10px;
     text-align: center;
-}
-
-/* Cruise Speed Table */ 
-
-.A320cruisingspeedstable{
+  }
+  
+  /* Cruise Speed Table */ 
+  
+  .A339cruisingspeedstable{
     border-collapse: collapse;
     margin: 25px 0;
     font-size: 0.9rem;
@@ -386,68 +387,68 @@ p{
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
     margin-left: auto;
     margin-right: auto;
-}
-
-.A320cruisingspeedstable thead tr{
+  }
+  
+  .A339cruisingspeedstable thead tr{
     background-color: #3a7fff;
     color: #ffff;
     text-align: left;
     font-weight: 400;
-}
-
-.A320cruisingspeedstable th, td{
+  }
+  
+  .A339cruisingspeedstable th, td{
     padding: 12px 15px;
-
-}
-
-.A320cruisingspeedstable tbody tr{
+  
+  }
+  
+  .A339cruisingspeedstable tbody tr{
     border-bottom: 1px solid #dddddd;
-}
-
-.A320cruisingspeedstable tbody tr:nth-of-type(even){
+  }
+  
+  .A339cruisingspeedstable tbody tr:nth-of-type(even){
     background-color: #f3f3f3f3;
-}
-
-.A320cruisingspeedstable tbody tr:nth-last-of-type(){
+  }
+  
+  .A339cruisingspeedstable tbody tr:nth-last-of-type(){
     border-bottom: 2px solid #3a7fff;
-}
-
-.A320cruisingspeedstable tbody tr.active-row{
+  }
+  
+  .A339cruisingspeedstable tbody tr.active-row{
     font-weight: 400;
     color: #3a7fff;
-}
-
-/* Airbus A320 Fuel Burn */
-
-.fuelburn220 {
+  }
+  
+  /* Airbus A339 Fuel Burn */
+  
+  .fuelburn220 {
     width: 80%;
     margin: auto;
     text-align: center;
     padding-top: 20px;
-}
+  }
                 
-.fuelburn220 h2 {
+  .fuelburn220 h2 {
     font-size: 30px;
     font-weight: 600;
-}
+  }
                 
-.fuelburn220 p{
+  .fuelburn220 p{
     font-size: 15px;
     color: rgb(0, 0, 0);
     font-weight: 400;
     line-height: 22px;
     padding: 10px;
     text-align: center;
-}
-
-.testA320 {
+  }
+  
+  .testA339 {
     background-color: #3a7fff;
     color: rgb(255, 255, 255);
     text-align: left;
     font-weight: bold;
-}
-
-.fuelburntableA320{
+  }
+  
+  .fuelburntableA339{
     border-collapse: collapse;
     margin: 25px 0;
     font-size: 0.9rem;
@@ -457,58 +458,58 @@ p{
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
     margin-right: auto;
     margin-left: auto;
-}
-
-.fuelburntableA320 thead tr{
+  }
+  
+  .fuelburntableA339 thead tr{
     background-color: #3a7fff;
     color: #ffff;
     text-align: left;
     font-weight: 400;
-}
-
-.fuelburntableA320 th, td{
+  }
+  
+  .fuelburntableA339 th, td{
     padding: 12px 15px;
     text-align: left;
-
-}
-
-.A320cruisingspeedstable tbody tr{
+  
+  }
+  
+  .A339cruisingspeedstable tbody tr{
     border-bottom: 1px solid #dddddd;
-}
-
-.fuelburntableA320 tbody tr:nth-of-type(even){
+  }
+  
+  .fuelburntableA339 tbody tr:nth-of-type(even){
     background-color: #f3f3f3f3;
-}
-
-.fuelburntableA320 tbody tr:nth-last-of-type(){
+  }
+  
+  .fuelburntableA339 tbody tr:nth-last-of-type(){
     border-bottom: 2px solid #3a7fff;
-}
-
-.fuelburntableA320 tbody tr.active-row{
+  }
+  
+  .fuelburntableA339 tbody tr.active-row{
     font-weight: 400;
     color: #3a7fff;
-}
-
-.fuelburn220 p{
+  }
+  
+  .fuelburn220 p{
   padding-bottom: 15px;
-
-}
-
-/* Airbus A320 Information */ 
-
-.A320informationIRL {
+  
+  }
+  
+  /* Airbus A339 Information */ 
+  
+  .A339informationIRL {
     width: 80%;
     margin: auto;
     text-align: center;
     padding-top: 20px;
-}
+  }
                 
-.A320informationIRL h2 {
+  .A339informationIRL h2 {
     font-size: 30px;
     font-weight: 600;
-}
+  }
                 
-.A320informationIRL p{
+  .A339informationIRL p{
     font-size: 15px;
     color: rgb(0, 0, 0);
     font-weight: 400;
@@ -516,11 +517,11 @@ p{
     padding: 10px;
     text-align: center;
     padding-bottom: 60px;
-}
-
-/* A320 Timeline */
-
-* {
+  }
+  
+  /* A339 Timeline */
+  
+  * {
     box-sizing: border-box;
   }
   
@@ -653,181 +654,181 @@ p{
       left: 0%;
     }
   }
-
-  .contentA3202020 h2{
+  
+  .contentA3392020 h2{
     padding-top: 5px;
     font-weight: 600;
     padding-bottom: 10px;
     font-weight: 400;
   }
-  .contentA3202020 p{
+  .contentA3392020 p{
     font-weight: 400;
     padding-bottom: 20px;
     text-align: left;
     margin-left: -9px;
   }
-
-  .contentA3202020 img{
+  
+  .contentA3392020 img{
     max-width: 500px;
     max-height: 500px;
   }
-
-  .A320firstlook h2{
+  
+  .A339firstlook h2{
     padding-top: 5px;
     text-align: left;
     padding-left: 20px;
     font-weight: 400;
   }
-
-  .A320firstlook p{
+  
+  .A339firstlook p{
     text-align: left;
     padding-left: 20px;
     padding-bottom: 20px;
   }
-
-.A320firstlookvideo{
+  
+  .A339firstlookvideo{
     padding-left: 20px;
-}
-
-.enginesA320 h2{
+  }
+  
+  .enginesA339 h2{
     padding-top: 6px;
     font-weight: 600;
     padding-bottom: 10px;
     font-weight: 400;
   }
-  .enginesA320 p{
+  .enginesA339 p{
     font-weight: 400;
     padding-bottom: 20px;
     text-align: left;
     margin-left: -9px;
   }
-
-  .enginesA320 img{
+  
+  .enginesA339 img{
     max-width: 500px;
     max-height: 500px;
   }
-
-  .A320cockpitcomestolife h2{
+  
+  .A339cockpitcomestolife h2{
     padding-top: 5px;
     text-align: left;
     padding-left: 20px;
     font-weight: 400;
   }
-
-  .A320cockpitcomestolife p{
+  
+  .A339cockpitcomestolife p{
     text-align: left;
     padding-left: 20px;
     padding-bottom: 20px;
   }
-
-.A320screenscometolife{
+  
+  .A339screenscometolife{
     padding-left: 20px;
-}
-
-.completeA320cockpit h2{
+  }
+  
+  .completeA339cockpit h2{
     padding-top: 6px;
     font-weight: 600;
     padding-bottom: 10px;
     font-weight: 400;
   }
-  .completeA320cockpit p{
+  .completeA339cockpit p{
     font-weight: 400;
     padding-bottom: 20px;
     text-align: left;
     margin-left: -9px;
   }
-
-  .completeA320cockpit img{
+  
+  .completeA339cockpit img{
     max-width: 500px;
     max-height: 500px;
   }
-
-  .A320highpolyengineshot2 h2{
+  
+  .A339highpolyengineshot2 h2{
     padding-top: 5px;
     text-align: left;
     padding-left: 20px;
     font-weight: 400;
   }
-
-  .A320highpolyengineshot2 p{
+  
+  .A339highpolyengineshot2 p{
     text-align: left;
     padding-left: 20px;
     padding-bottom: 20px;
   }
-
-  .A320highpolyengineshot2 img{
+  
+  .A339highpolyengineshot2 img{
     padding-left: 20px;
     max-width: 550px;
     max-height: 550px;
   }
-
-  .gearandenginesshotA320 h2{
+  
+  .gearandenginesshotA339 h2{
     padding-top: 6px;
     font-weight: 600;
     padding-bottom: 10px;
     font-weight: 400;
   }
-  .gearandenginesshotA320 p{
+  .gearandenginesshotA339 p{
     font-weight: 400;
     padding-bottom: 20px;
     text-align: left;
     margin-left: -9px;
   }
-
-  .gearandenginesshotA320 img{
+  
+  .gearandenginesshotA339 img{
     max-width: 500px;
     max-height: 500px;
   }
-
-  .firstothershotofA320 h2{
+  
+  .firstothershotofA339 h2{
     padding-top: 5px;
     text-align: left;
     padding-left: 20px;
     font-weight: 400;
   }
-
-  .firstothershotofA320 p{
+  
+  .firstothershotofA339 p{
     text-align: left;
     padding-left: 20px;
     padding-bottom: 20px;
   }
-
-  .firstothershotofA320 img{
+  
+  .firstothershotofA339 img{
     padding-left: 20px;
     max-width: 550px;
     max-height: 550px;
   }
-
-  .A320isannounced h2{
+  
+  .A339isannounced h2{
     padding-top: 6px;
     font-weight: 600;
     padding-bottom: 10px;
     font-weight: 400;
   }
-  .A320isannounced p{
+  .A339isannounced p{
     font-weight: 400;
     padding-bottom: 20px;
     text-align: left;
     margin-left: -9px;
   }
-
-  .A320isannounced img{
+  
+  .A339isannounced img{
     max-width: 500px;
     max-height: 500px;
   }
-
-  /* A320 General Information */
-
-  .A320generalinformation h2{
+  
+  /* A339 General Information */
+  
+  .A339generalinformation h2{
     text-align: center;
   }
-
-  .A320generalinformation p{
+  
+  .A339generalinformation p{
     text-align: center;
   }
-
+  
   /* Liveries Table */
-
+  
   .liverytable{
     border-collapse: collapse;
     margin: 25px 0;
@@ -838,46 +839,46 @@ p{
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
     margin-left: auto;
     margin-right: auto;
-}
-
-.liverytable thead tr{
+  }
+  
+  .liverytable thead tr{
     background-color: #3a7fff;
     color: #ffff;
     text-align: left;
     font-weight: 400;
-}
-
-.liverytable th, td{
+  }
+  
+  .liverytable th, td{
     padding: 12px 15px;
-
-}
-
-.liverytable tbody tr{
+  
+  }
+  
+  .liverytable tbody tr{
     border-bottom: 1px solid #dddddd;
-}
-
-.liverytable tbody tr:nth-of-type(even){
+  }
+  
+  .liverytable tbody tr:nth-of-type(even){
     background-color: #f3f3f3f3;
-}
-
-.liverytable tbody tr:nth-last-of-type(){
+  }
+  
+  .liverytable tbody tr:nth-last-of-type(){
     border-bottom: 2px solid #3a7fff;
-}
-
-.liverytable tbody tr.active-row{
+  }
+  
+  .liverytable tbody tr.active-row{
     font-weight: 400;
     color: #3a7fff;
-}
-
-/* A320 Coloums */
-
-.row{
+  }
+  
+  /* A339 Coloums */
+  
+  .row{
     margin-top: 5%;
     display: flex;
     justify-content: space-between;
-}
-
-.A320range-col{
+  }
+  
+  .A339range-col{
     flex-basis: 23%;
     background: #e9e9e9;
     border-radius: 10px;
@@ -885,40 +886,19 @@ p{
     padding: 20px 12px;
     box-sizing: border-box;
     transition: 0.5s;
-}
-
-h3{
+  }
+  
+  h3{
     text-align: center;
     font-weight: 600;
     margin: 10;
-}
-
-.A320range-col:hover{
+  }
+  
+  .A339range-col:hover{
     box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
-}
-
-.A320range-col{
-    flex-basis: 23%;
-    background: #e9e9e9;
-    border-radius: 10px;
-    margin-bottom: 6%;
-    padding: 20px 12px;
-    box-sizing: border-box;
-    transition: 0.5s;
-    color: #000000;
-}
-
-h3{
-    text-align: center;
-    font-weight: 600;
-    margin: 10;
-}
-
-.A320range-col:hover{
-    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
-}
-
-.A320passengercount-col{
+  }
+  
+  .A339range-col{
     flex-basis: 23%;
     background: #e9e9e9;
     border-radius: 10px;
@@ -927,25 +907,46 @@ h3{
     box-sizing: border-box;
     transition: 0.5s;
     color: #000000;
-}
-
-h3{
+  }
+  
+  h3{
     text-align: center;
     font-weight: 600;
     margin: 10;
-}
-
-.A320passengercount-col:hover{
+  }
+  
+  .A339range-col:hover{
     box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
-}
-
-.row{
+  }
+  
+  .A339passengercount-col{
+    flex-basis: 23%;
+    background: #e9e9e9;
+    border-radius: 10px;
+    margin-bottom: 6%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+    color: #000000;
+  }
+  
+  h3{
+    text-align: center;
+    font-weight: 600;
+    margin: 10;
+  }
+  
+  .A339passengercount-col:hover{
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+  }
+  
+  .row{
     margin-top: 5%;
     display: flex;
     justify-content: space-between;
-}
-
-.A320MTOWandMLW-col{
+  }
+  
+  .A339MTOWandMLW-col{
     flex-basis: 23%;
     background: #e9e9e9;
     border-radius: 10px;
@@ -953,19 +954,19 @@ h3{
     padding: 20px 12px;
     box-sizing: border-box;
     transition: 0.5s;
-}
-
-h3{
+  }
+  
+  h3{
     text-align: center;
     font-weight: 600;
     margin: 10;
-}
-
-.A320MTOWandMLW-col:hover{
+  }
+  
+  .A339MTOWandMLW-col:hover{
     box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
-}
-
-.A320MTOWandMLW-col{
+  }
+  
+  .A339MTOWandMLW-col{
     flex-basis: 23%;
     background: #e9e9e9;
     border-radius: 10px;
@@ -974,27 +975,27 @@ h3{
     box-sizing: border-box;
     transition: 0.5s;
     color: #000000;
-}
-
-h3{
+  }
+  
+  h3{
     text-align: center;
     font-weight: 600;
     margin: 10;
-}
-
-.A320MTOWandMLW-col:hover{
+  }
+  
+  .A339MTOWandMLW-col:hover{
     box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
-}
-
-.row{
+  }
+  
+  .row{
     margin-top: 5%;
     display: flex;
     justify-content: space-between;
     padding-left: 200px;
     padding-right: 200px;
-}
-
-.A320info-col{
+  }
+  
+  .A339info-col{
     flex-basis: 23%;
     background: #e9e9e9;
     border-radius: 10px;
@@ -1002,19 +1003,19 @@ h3{
     padding: 20px 12px;
     box-sizing: border-box;
     transition: 0.5s;
-}
-
-h3{
+  }
+  
+  h3{
     text-align: center;
     font-weight: 600;
     margin: 10;
-}
-
-.A320info-col:hover{
+  }
+  
+  .A339info-col:hover{
     box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
-}
-
-.A320info-col{
+  }
+  
+  .A339info-col{
     flex-basis: 23%;
     background: #e9e9e9;
     border-radius: 10px;
@@ -1023,14 +1024,14 @@ h3{
     box-sizing: border-box;
     transition: 0.5s;
     color: #000000;
-}
-
-h3{
+  }
+  
+  h3{
     text-align: center;
     font-weight: 600;
     margin: 10;
-}
-
-.A320info-col:hover{
+  }
+  
+  .A339info-col:hover{
     box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
-}
+  }

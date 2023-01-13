@@ -71,7 +71,7 @@ nav img{
 }
 
 .nav-links ul li:hover::after{
-    width: 300%;
+    width: 100%;
 }
 
 nav .fa-solid{
@@ -111,18 +111,22 @@ nav .fa-solid{
 }
 
 
-@media screen and (min-width: 1000px) {
-  .airbusa330-300 h1 {
+@media screen and (min-width: 1900px) {
+  .airbusA333-300 h1 {
     padding-top: 135px;
+    margin-left: 100px;
+  }
+  .airbusA333-300 p {
+    margin-left: 100px;
   }}
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 1900px) {
   .footer {
     padding-top: 10px;
     min-height: 30vh;
   }}
 
-.headera330{
+.headerA333{
     min-height: 80vh;
     width: 100%;
     background-image: 
@@ -133,7 +137,7 @@ nav .fa-solid{
     color: #ffff;
 }
 
-.airbusa330-300 h1{
+.airbusA333-300 h1{
     margin-top: 150px;
     align-items: center;
     font-size: 55px;
@@ -142,7 +146,7 @@ nav .fa-solid{
     padding-left: 200px;
 }
 
-.airbusa330-300 p{
+.airbusA333-300 p{
     font-size: 20px;
     color: #ffff;
     font-weight: 500;
@@ -150,7 +154,7 @@ nav .fa-solid{
     padding-left: 200px;
 }
 
-/*---Welcome, Captain. a330.---*/
+/*---Welcome, Captain. A333.---*/
 
 .welcomeonboardcaptain330 {
     width: 80%;
@@ -172,22 +176,22 @@ p{
     padding: 20px;
 }
 
-/*---Airbus a330 Performance information---*/
+/*---Airbus A333 Performance information---*/
 
-.airbusa330takeoffperformance h2{
+.airbusa333takeoffperformance h2{
     text-align: center;
     font-size: 30px;
     padding-top: 20px;
 }
 
-.airbusa330takeoffperformance h3{
+.airbusa333takeoffperformance h3{
     text-align: center;
     font-size: 20px;
     font-weight: 400;
     padding-top: 20px;
 }
 
-.a330performancetable{
+.a333performancetable{
     border-collapse: collapse;
     margin: 25px 0;
     font-size: 0.9rem;
@@ -199,31 +203,31 @@ p{
     margin-right: auto;
 }
 
-.a330performancetable thead tr{
+.a333performancetable thead tr{
     background-color: #3a7fff;
     color: #ffff;
     text-align: left;
     font-weight: 400;
 }
 
-.a330performancetable th, td{
+.a333performancetable th, td{
     padding: 12px 15px;
 
 }
 
-.a330performancetable tbody tr{
+.a333performancetable tbody tr{
     border-bottom: 1px solid #dddddd;
 }
 
-.a330performancetable tbody tr:nth-of-type(even){
+.a333performancetable tbody tr:nth-of-type(even){
     background-color: #f3f3f3f3;
 }
 
-.a330performancetable tbody tr:nth-last-of-type(){
+.a333performancetable tbody tr:nth-last-of-type(){
     border-bottom: 2px solid #3a7fff;
 }
 
-.a330performancetable tbody tr.active-row{
+.a333performancetable tbody tr.active-row{
     font-weight: 400;
     color: #3a7fff;
 }
@@ -276,7 +280,7 @@ p{
 			white-space: nowrap;
 		}}
 
-.cruisealtitudesa330 {
+.cruisealtitudesa333 {
     width: 80%;
     margin: auto;
     text-align: center;
@@ -297,13 +301,13 @@ p{
     text-align: center;
 }
 
-/* a330 Performance Table Notes */
+/* A333 Performance Table Notes */
 
-.a330perftablenotes h2{
+.A333perftablenotes h2{
     text-align: center;
 }
 
-.a330perftablenotes p{
+.A333perftablenotes p{
     text-align: center;
     padding-left: 20vh;
     padding-right: 20vh;
@@ -311,7 +315,7 @@ p{
 
 /* Cruise altitude table */
 
-.a330cruisealttable{
+.a333cruisealttable{
     border-collapse: collapse;
     margin: 25px 0;
     font-size: 0.9rem;
@@ -323,38 +327,38 @@ p{
     margin-right: auto;
 }
 
-.a330cruisealttable thead tr{
+.a333cruisealttable thead tr{
     background-color: #3a7fff;
     color: #ffff;
     text-align: left;
     font-weight: 400;
 }
 
-.a330cruisealttable th, td{
+.a333cruisealttable th, td{
     padding: 12px 15px;
 
 }
 
-.a330cruisealttable tbody tr{
+.a333cruisealttable tbody tr{
     border-bottom: 1px solid #dddddd;
 }
 
-.a330cruisealttable tbody tr:nth-of-type(even){
+.a333cruisealttable tbody tr:nth-of-type(even){
     background-color: #f3f3f3f3;
 }
 
-.a330cruisealttable tbody tr:nth-last-of-type(){
+.a333cruisealttable tbody tr:nth-last-of-type(){
     border-bottom: 2px solid #3a7fff;
 }
 
-.a330cruisealttable tbody tr.active-row{
+.a333cruisealttable tbody tr.active-row{
     font-weight: 400;
     color: #3a7fff;
 }
 
 /* Cruise Speeds H2 and P */
 
-.cruisespeeda330 {
+.cruisespeeda333 {
     width: 80%;
     margin: auto;
     text-align: center;
@@ -377,7 +381,7 @@ p{
 
 /* Cruise Speed Table */ 
 
-.a330cruisingspeedstable{
+.a333cruisingspeedstable{
     border-collapse: collapse;
     margin: 25px 0;
     font-size: 0.9rem;
@@ -389,36 +393,36 @@ p{
     margin-right: auto;
 }
 
-.a330cruisingspeedstable thead tr{
+.a333cruisingspeedstable thead tr{
     background-color: #3a7fff;
     color: #ffff;
     text-align: left;
     font-weight: 400;
 }
 
-.a330cruisingspeedstable th, td{
+.a333cruisingspeedstable th, td{
     padding: 12px 15px;
 
 }
 
-.a330cruisingspeedstable tbody tr{
+.a333cruisingspeedstable tbody tr{
     border-bottom: 1px solid #dddddd;
 }
 
-.a330cruisingspeedstable tbody tr:nth-of-type(even){
+.a333cruisingspeedstable tbody tr:nth-of-type(even){
     background-color: #f3f3f3f3;
 }
 
-.a330cruisingspeedstable tbody tr:nth-last-of-type(){
+.a333cruisingspeedstable tbody tr:nth-last-of-type(){
     border-bottom: 2px solid #3a7fff;
 }
 
-.a330cruisingspeedstable tbody tr.active-row{
+.a333cruisingspeedstable tbody tr.active-row{
     font-weight: 400;
     color: #3a7fff;
 }
 
-/* Airbus a330 Fuel Burn */
+/* Airbus A333 Fuel Burn */
 
 .fuelburn330 {
     width: 80%;
@@ -441,14 +445,14 @@ p{
     text-align: center;
 }
 
-.testa330 {
+.testa333 {
     background-color: #3a7fff;
     color: rgb(255, 255, 255);
     text-align: left;
     font-weight: bold;
 }
 
-.fuelburntablea330{
+.fuelburntablea333{
     border-collapse: collapse;
     margin: 25px 0;
     font-size: 0.9rem;
@@ -460,32 +464,32 @@ p{
     margin-left: auto;
 }
 
-.fuelburntablea330 thead tr{
+.fuelburntablea333 thead tr{
     background-color: #3a7fff;
     color: #ffff;
     text-align: left;
     font-weight: 400;
 }
 
-.fuelburntablea330 th, td{
+.fuelburntablea333 th, td{
     padding: 12px 15px;
     text-align: left;
 
 }
 
-.a330cruisingspeedstable tbody tr{
+.a333cruisingspeedstable tbody tr{
     border-bottom: 1px solid #dddddd;
 }
 
-.fuelburntablea330 tbody tr:nth-of-type(even){
+.fuelburntablea333 tbody tr:nth-of-type(even){
     background-color: #f3f3f3f3;
 }
 
-.fuelburntablea330 tbody tr:nth-last-of-type(){
+.fuelburntablea333 tbody tr:nth-last-of-type(){
     border-bottom: 2px solid #3a7fff;
 }
 
-.fuelburntablea330 tbody tr.active-row{
+.fuelburntablea333 tbody tr.active-row{
     font-weight: 400;
     color: #3a7fff;
 }
@@ -495,21 +499,21 @@ p{
 
 }
 
-/* Airbus a330 Information */ 
+/* Airbus A333 Information */ 
 
-.a330informationIRL {
+.a333informationIRL {
     width: 80%;
     margin: auto;
     text-align: center;
     padding-top: 20px;
 }
                 
-.a330informationIRL h2 {
+.a333informationIRL h2 {
     font-size: 30px;
     font-weight: 600;
 }
                 
-.a330informationIRL p{
+.a333informationIRL p{
     font-size: 15px;
     color: rgb(0, 0, 0);
     font-weight: 400;
@@ -519,7 +523,7 @@ p{
     padding-bottom: 60px;
 }
 
-/* a330 Timeline */
+/* A333 Timeline */
 
 * {
     box-sizing: border-box;
@@ -655,178 +659,178 @@ p{
     }
   }
 
-  .contenta3302020 h2{
+  .contenta3332020 h2{
     padding-top: 6px;
     padding-bottom: 10px;
     font-weight: 400;
   }
-  .contenta3302020 p{
+  .contenta3332020 p{
     padding-bottom: 20px;
     text-align: left;
     margin-left: -9px;
   }
 
-  .contenta3302020 img{
+  .contenta3332020 img{
     max-width: 500px;
     max-height: 500px;
     font-weight: 400;
   }
 
-  .a330firstlook{
+  .a333firstlook{
     padding-left: 20px;
   }
 
-  .a330firstlook p{
+  .a333firstlook p{
     padding-bottom: 20px;
     text-align: left;
     margin-left: -9px;
   }
 
-  .a330firstlook h2{
+  .a333firstlook h2{
     padding-top: 6px;
     padding-bottom: 10px;
     font-weight: 400;
   }
 
-.enginesa330 h2{
+.enginesa333 h2{
     padding-top: 6px;
     font-weight: 400;
     padding-bottom: 10px;
   }
 
-  .enginesa330 p{
+  .enginesa333 p{
     padding-bottom: 20px;
     text-align: left;
     margin-left: -9px;
   }
 
-  .enginesa330 img{
+  .enginesa333 img{
     max-width: 500px;
     max-height: 500px;
   }
 
-  .a330cockpitcomestolife img{
+  .a333cockpitcomestolife img{
     padding-left: 20px;
     max-width: 500px;
     max-height: 500px;
   }
 
-  .a330cockpitcomestolife h2{
+  .a333cockpitcomestolife h2{
     padding-top: 5px;
     text-align: left;
     padding-left: 20px;
     font-weight: 400;
   }
 
-  .a330cockpitcomestolife p{
+  .a333cockpitcomestolife p{
     text-align: left;
     padding-left: 20px;
     padding-bottom: 20px;
   }
 
-.a330screenscometolife{
+.a333screenscometolife{
     padding-left: 20px;
 }
 
-.completea330cockpit h2{
+.completea333cockpit h2{
     padding-top: 6px;
     font-weight: 600;
     padding-bottom: 10px;
     font-weight: 400;
   }
-  .completea330cockpit p{
+  .completea333cockpit p{
     font-weight: 400;
     padding-bottom: 20px;
     text-align: left;
     margin-left: -9px;
   }
 
-  .completea330cockpit img{
+  .completea333cockpit img{
     max-width: 500px;
     max-height: 500px;
   }
 
-  .a330highpolyengineshot2 h2{
+  .a333highpolyengineshot2 h2{
     padding-top: 5px;
     text-align: left;
     padding-left: 20px;
     font-weight: 400;
   }
 
-  .a330highpolyengineshot2 p{
+  .a333highpolyengineshot2 p{
     text-align: left;
     padding-left: 20px;
     padding-bottom: 20px;
   }
 
-  .a330highpolyengineshot2 img{
+  .a333highpolyengineshot2 img{
     padding-left: 20px;
     max-width: 550px;
     max-height: 550px;
   }
 
-  .gearandenginesshota330 h2{
+  .gearandenginesshota333 h2{
     padding-top: 6px;
     font-weight: 600;
     padding-bottom: 10px;
     font-weight: 400;
   }
-  .gearandenginesshota330 p{
+  .gearandenginesshota333 p{
     font-weight: 400;
     padding-bottom: 20px;
     text-align: left;
     margin-left: -9px;
   }
 
-  .gearandenginesshota330 img{
+  .gearandenginesshota333 img{
     max-width: 500px;
     max-height: 500px;
   }
 
-  .firstothershotofa330 h2{
+  .firstothershotofa333 h2{
     padding-top: 5px;
     text-align: left;
     padding-left: 20px;
     font-weight: 400;
   }
 
-  .firstothershotofa330 p{
+  .firstothershotofa333 p{
     text-align: left;
     padding-left: 20px;
     padding-bottom: 20px;
   }
 
-  .firstothershotofa330 img{
+  .firstothershotofa333 img{
     padding-left: 20px;
     max-width: 550px;
     max-height: 550px;
   }
 
-  .a330isannounced h2{
+  .a333isannounced h2{
     padding-top: 6px;
     font-weight: 600;
     padding-bottom: 10px;
     font-weight: 400;
   }
-  .a330isannounced p{
+  .a333isannounced p{
     font-weight: 400;
     padding-bottom: 20px;
     text-align: left;
     margin-left: -9px;
   }
 
-  .a330isannounced img{
+  .a333isannounced img{
     max-width: 500px;
     max-height: 500px;
   }
 
-  /* a330 General Information */
+  /* A333 General Information */
 
-  .a330generalinformation h2{
+  .a333generalinformation h2{
     text-align: center;
   }
 
-  .a330generalinformation p{
+  .a333generalinformation p{
     text-align: center;
   }
 
@@ -873,7 +877,7 @@ p{
     color: #3a7fff;
 }
 
-/* a330 Coloums */
+/* A333 Coloums */
 
 .row{
     margin-top: 5%;
@@ -881,7 +885,7 @@ p{
     justify-content: space-between;
 }
 
-.a330range-col{
+.a333range-col{
     flex-basis: 23%;
     background: #e9e9e9;
     border-radius: 10px;
@@ -897,11 +901,11 @@ h3{
     margin: 10;
 }
 
-.a330range-col:hover{
+.a333range-col:hover{
     box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
 }
 
-.a330range-col{
+.a333range-col{
     flex-basis: 23%;
     background: #e9e9e9;
     border-radius: 10px;
@@ -918,11 +922,11 @@ h3{
     margin: 10;
 }
 
-.a330range-col:hover{
+.a333range-col:hover{
     box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
 }
 
-.a330passengercount-col{
+.a333passengercount-col{
     flex-basis: 23%;
     background: #e9e9e9;
     border-radius: 10px;
@@ -939,7 +943,7 @@ h3{
     margin: 10;
 }
 
-.a330passengercount-col:hover{
+.a333passengercount-col:hover{
     box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
 }
 
@@ -949,7 +953,7 @@ h3{
     justify-content: space-between;
 }
 
-.a330MTOWandMLW-col{
+.a333MTOWandMLW-col{
     flex-basis: 23%;
     background: #e9e9e9;
     border-radius: 10px;
@@ -965,11 +969,11 @@ h3{
     margin: 10;
 }
 
-.a330MTOWandMLW-col:hover{
+.a333MTOWandMLW-col:hover{
     box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
 }
 
-.a330MTOWandMLW-col{
+.a333MTOWandMLW-col{
     flex-basis: 23%;
     background: #e9e9e9;
     border-radius: 10px;
@@ -986,7 +990,7 @@ h3{
     margin: 10;
 }
 
-.a330MTOWandMLW-col:hover{
+.a333MTOWandMLW-col:hover{
     box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
 }
 
@@ -998,7 +1002,7 @@ h3{
     padding-right: 300px;
 }
 
-.a330info-col{
+.a333info-col{
     flex-basis: 23%;
     background: #e9e9e9;
     border-radius: 10px;
@@ -1014,11 +1018,11 @@ h3{
     margin: 10;
 }
 
-.a330info-col:hover{
+.a333info-col:hover{
     box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
 }
 
-.a330info-col{
+.a333info-col{
     flex-basis: 23%;
     background: #e9e9e9;
     border-radius: 10px;
@@ -1035,6 +1039,6 @@ h3{
     margin: 10;
 }
 
-.a330info-col:hover{
+.a333info-col:hover{
     box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
 }

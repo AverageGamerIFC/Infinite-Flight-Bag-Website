@@ -1,231 +1,231 @@
 *{
-    margin: 0;
-    padding: 0;
-    font-family: 'Ubuntu', sans-serif;
+  margin: 0;
+  padding: 0;
+  font-family: 'Ubuntu', sans-serif;
 }
 
 .footer{
-    margin-top: 20px;
-    text-align: center;
-    background-color: #a8a8a8;
-    color: #ffff;
-    padding-left: 10vh;
-    padding-right: 10vh;
-    min-height: 40vh;  
+  margin-top: 20px;
+  text-align: center;
+  background-color: #a8a8a8;
+  color: #ffff;
+  padding-left: 10vh;
+  padding-right: 10vh;
+  min-height: 40vh;  
 }
 .footer h2{
-    text-align: center;
-    padding-top: 50px;
-    padding-bottom: 10px;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 10px;
 }
 
 .footer p{
-    text-align: center;
-    color: #ffff;
-    margin-left: -10px;
+  text-align: center;
+  color: #ffff;
+  margin-left: -10px;
 }
 
 nav{
-    display: flex;
-    padding-left: 20px;
-    padding-right: 20px;
-    justify-content: space-between;
-    align-items: center;
-    background-color: rgb(0, 0, 0);
+  display: flex;
+  padding-left: 20px;
+  padding-right: 20px;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(0, 0, 0);
 }
 
 nav img{
-    padding-top: 10px;
-    padding-bottom: 10px;
-    max-width: 70px;
-    max-height: 70px;
-    padding-left: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  max-width: 70px;
+  max-height: 70px;
+  padding-left: 30px;
 }
 
 .nav-links{
-    flex: 1;
-    text-align: right;
+  flex: 1;
+  text-align: right;
 }
 
 .nav-links ul li{
-    list-style: none;
-    display: inline-block;
-    padding: 30px 12px;
-    position: relative;
+  list-style: none;
+  display: inline-block;
+  padding: 30px 12px;
+  position: relative;
 }
 
 .nav-links ul li a{
-    color: rgb(255, 255, 255);
-    text-decoration: none;
-    font-size: 18px;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  font-size: 18px;
 }
 
 .nav-links ul li::after{
-    content: "";
-    width: 0%;
-    height: 1.5px;
-    background: #fbff00;
-    display: block;
-    margin-top: 2px;
-    transition: 0.5s;
+  content: "";
+  width: 0%;
+  height: 1.5px;
+  background: #fbff00;
+  display: block;
+  margin-top: 2px;
+  transition: 0.5s;
 }
 
 .nav-links ul li:hover::after{
-    width: 900%;
+  width: 100%;
 }
 
 nav .fa-solid{
-    display: none;
+  display: none;
 }
 
 @media(max-width: 700px){
-    .text-box h1{
-        font-size: 30px;
-    }
-    .text-box p{
-        margin-top: 5px;
-        font-size: 15px;
-    }
-    .nav-links ul li{
-        display: block;
-    }
-    .nav-links{
-        position: absolute;
-        background: #f44336;
-        height: 900vh;
-        width: 900px;
-        top: 0;
-        right: -900vh;
-        text-align: center;
-        z-index: 2;
-        transition: 0.5s;
-    }
-    nav .fa-solid{
-        display: block;
-        color: rgb(255, 255, 255);
-        margin: 10px;
-        font-size: 22px;
-        cursor: pointer;
-        margin-right: 0vh;
-    }
+  .text-box h1{
+      font-size: 30px;
+  }
+  .text-box p{
+      margin-top: 5px;
+      font-size: 15px;
+  }
+  .nav-links ul li{
+      display: block;
+  }
+  .nav-links{
+      position: absolute;
+      background: #f44336;
+      height: 200vh;
+      width: 200px;
+      top: 0;
+      right: -200vh;
+      text-align: center;
+      z-index: 2;
+      transition: 0.5s;
+  }
+  nav .fa-solid{
+      display: block;
+      color: rgb(255, 255, 255);
+      margin: 10px;
+      font-size: 22px;
+      cursor: pointer;
+      margin-right: 0vh;
+  }
 }
 
 
-@media screen and (min-width: 1000px) {
-  .airbusa330-900 h1 {
-    padding-top: 135px;
-  }}
+@media screen and (min-width: 1900px) {
+.airbusA339-200 h1 {
+  padding-top: 135px;
+}}
 
-@media screen and (min-width: 1000px) {
-  .footer {
-    padding-top: 10px;
-    min-height: 30vh;
-  }}
+@media screen and (min-width: 1900px) {
+.footer {
+  padding-top: 10px;
+  min-height: 30vh;
+}}
 
-.headera330{
-    min-height: 80vh;
-    width: 100%;
-    background-image: 
-    linear-gradient(rgba(163, 163, 163, 0.7), rgba(48, 48, 48, 0.7)), url(images/A333Header\ \(1\).jpg);
-    background-position: center;
-    background-size: cover;
-    text-align: center;
-    color: #ffff;
+.headerA339{
+  min-height: 80vh;
+  width: 100%;
+  background-image: 
+  linear-gradient(rgba(163, 163, 163, 0.7), rgba(48, 48, 48, 0.7)), url(images/A339Header\ \(1\).jpg);
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  color: #ffff;
 }
 
-.airbusa330-900 h1{
-    margin-top: 150px;
-    align-items: center;
-    font-size: 55px;
-    color: #ffff;
-    text-align: Left;
-    padding-left: 200px;
+.airbusA339-200 h1{
+  margin-top: 150px;
+  align-items: center;
+  font-size: 55px;
+  color: #ffff;
+  text-align: Left;
+  padding-left: 200px;
 }
 
-.airbusa330-900 p{
-    font-size: 20px;
-    color: #ffff;
-    font-weight: 500;
-    text-align: Left;
-    padding-left: 200px;
+.airbusA339-200 p{
+  font-size: 20px;
+  color: #ffff;
+  font-weight: 500;
+  text-align: Left;
+  padding-left: 200px;
 }
 
-/*---Welcome, Captain. a330.---*/
+/*---Welcome, Captain. A339.---*/
 
-.welcomeonboardcaptain330 {
-    width: 80%;
-    margin: auto;
-    text-align: center;
-    padding-top: 50px;
+.welcomeonboardcaptain318 {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  padding-top: 50px;
 }
 
 h2 {
-    font-size: 40px;
-    font-weight: 600;
+  font-size: 40px;
+  font-weight: 600;
 }
 
 p{
-    font-size: 15px;
-    color: rgb(0, 0, 0);
-    font-weight: 400;
-    line-height: 22px;
-    padding: 20px;
+  font-size: 15px;
+  color: rgb(0, 0, 0);
+  font-weight: 400;
+  line-height: 22px;
+  padding: 20px;
 }
 
-/*---Airbus a330 Performance information---*/
+/*---Airbus A339 Performance information---*/
 
-.airbusa330takeoffperformance h2{
-    text-align: center;
-    font-size: 30px;
-    padding-top: 20px;
+.airbusA339takeoffperformance h2{
+  text-align: center;
+  font-size: 30px;
+  padding-top: 20px;
 }
 
-.airbusa330takeoffperformance h3{
-    text-align: center;
-    font-size: 20px;
-    font-weight: 400;
-    padding-top: 20px;
+.airbusA339takeoffperformance h3{
+  text-align: center;
+  font-size: 20px;
+  font-weight: 400;
+  padding-top: 20px;
 }
 
-.a330performancetable{
-    border-collapse: collapse;
-    margin: 25px 0;
-    font-size: 0.9rem;
-    min-width: 480px;
-    border-radius: 5px 5px 0 0;
-    overflow: hidden;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
-    margin-left: auto;
-    margin-right: auto;
+.A339performancetable{
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 0.9rem;
+  min-width: 480px;
+  border-radius: 5px 5px 0 0;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.a330performancetable thead tr{
-    background-color: #3a7fff;
-    color: #ffff;
-    text-align: left;
-    font-weight: 400;
+.A339performancetable thead tr{
+  background-color: #3a7fff;
+  color: #ffff;
+  text-align: left;
+  font-weight: 400;
 }
 
-.a330performancetable th, td{
-    padding: 12px 15px;
+.A339performancetable th, td{
+  padding: 12px 15px;
 
 }
 
-.a330performancetable tbody tr{
-    border-bottom: 1px solid #dddddd;
+.A339performancetable tbody tr{
+  border-bottom: 1px solid #dddddd;
 }
 
-.a330performancetable tbody tr:nth-of-type(even){
-    background-color: #f3f3f3f3;
+.A339performancetable tbody tr:nth-of-type(even){
+  background-color: #f3f3f3f3;
 }
 
-.a330performancetable tbody tr:nth-last-of-type(){
-    border-bottom: 2px solid #3a7fff;
+.A339performancetable tbody tr:nth-last-of-type(){
+  border-bottom: 2px solid #3a7fff;
 }
 
-.a330performancetable tbody tr.active-row{
-    font-weight: 400;
-    color: #3a7fff;
+.A339performancetable tbody tr.active-row{
+  font-weight: 400;
+  color: #3a7fff;
 }
 
 
@@ -233,805 +233,805 @@ p{
 /*Table for Mobile*/
 
 @media
-	only screen 
-    and (max-width: 760px), (min-device-width: 768px) 
-    and (max-device-width: 1024px)  {
+only screen 
+  and (max-width: 760px), (min-device-width: 768px) 
+  and (max-device-width: 1024px)  {
 
-		/* Force table to not be like tables anymore */
-		table, thead, tbody, th, td, tr {
-			display: block;
-		}
+  /* Force table to not be like tables anymore */
+  table, thead, tbody, th, td, tr {
+    display: block;
+  }
 
-		/* Hide table headers (but not display: none;, for accessibility) */
-		thead tr {
-			position: absolute;
-			top: -9999px;
-			left: -9999px;
-		}
+  /* Hide table headers (but not display: none;, for accessibility) */
+  thead tr {
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+  }
 
-    tr {
-      margin: 0 0 1rem 0;
-    }
-      
-    tr:nth-child(odd) {
-      background: #ccc;
-    }
+  tr {
+    margin: 0 0 1rem 0;
+  }
     
-		td {
-			/* Behave  like a "row" */
-			border: none;
-			border-bottom: 1px solid #eee;
-			position: relative;
-			padding-left: 50%;
-		}
+  tr:nth-child(odd) {
+    background: #ccc;
+  }
+  
+  td {
+    /* Behave  like a "row" */
+    border: none;
+    border-bottom: 1px solid #eee;
+    position: relative;
+    padding-left: 50%;
+  }
 
-		td:before {
-			/* Now like a table header */
-			position: absolute;
-			/* Top/left values mimic padding */
-			top: 0;
-			left: 6px;
-			width: 45%;
-			padding-right: 10px;
-			white-space: nowrap;
-		}}
+  td:before {
+    /* Now like a table header */
+    position: absolute;
+    /* Top/left values mimic padding */
+    top: 0;
+    left: 6px;
+    width: 45%;
+    padding-right: 10px;
+    white-space: nowrap;
+  }}
 
-.cruisealtitudesa330 {
-    width: 80%;
-    margin: auto;
-    text-align: center;
-    padding-top: 20px;
+.cruisealtitudesA339 {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  padding-top: 20px;
 }
-                
+              
 h2 {
-    font-size: 30px;
-    font-weight: 600;
+  font-size: 30px;
+  font-weight: 600;
 }
-                
+              
 p{
-    font-size: 15px;
-    color: rgb(0, 0, 0);
-    font-weight: 400;
-    line-height: 22px;
-    padding: 20px;
-    text-align: center;
+  font-size: 15px;
+  color: rgb(0, 0, 0);
+  font-weight: 400;
+  line-height: 22px;
+  padding: 20px;
+  text-align: center;
 }
 
-/* a330 Performance Table Notes */
+/* A339 Performance Table Notes */
 
-.a330perftablenotes h2{
-    text-align: center;
+.A339perftablenotes h2{
+  text-align: center;
 }
 
-.a330perftablenotes p{
-    text-align: center;
-    padding-left: 20vh;
-    padding-right: 20vh;
+.A339perftablenotes p{
+  text-align: center;
+  padding-left: 20vh;
+  padding-right: 20vh;
 }
 
 /* Cruise altitude table */
 
-.a330cruisealttable{
-    border-collapse: collapse;
-    margin: 25px 0;
-    font-size: 0.9rem;
-    min-width: 480px;
-    border-radius: 5px 5px 0 0;
-    overflow: hidden;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
-    margin-left: auto;
-    margin-right: auto;
+.A339cruisealttable{
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 0.9rem;
+  min-width: 480px;
+  border-radius: 5px 5px 0 0;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.a330cruisealttable thead tr{
-    background-color: #3a7fff;
-    color: #ffff;
-    text-align: left;
-    font-weight: 400;
+.A339cruisealttable thead tr{
+  background-color: #3a7fff;
+  color: #ffff;
+  text-align: left;
+  font-weight: 400;
 }
 
-.a330cruisealttable th, td{
-    padding: 12px 15px;
+.A339cruisealttable th, td{
+  padding: 12px 15px;
 
 }
 
-.a330cruisealttable tbody tr{
-    border-bottom: 1px solid #dddddd;
+.A339cruisealttable tbody tr{
+  border-bottom: 1px solid #dddddd;
 }
 
-.a330cruisealttable tbody tr:nth-of-type(even){
-    background-color: #f3f3f3f3;
+.A339cruisealttable tbody tr:nth-of-type(even){
+  background-color: #f3f3f3f3;
 }
 
-.a330cruisealttable tbody tr:nth-last-of-type(){
-    border-bottom: 2px solid #3a7fff;
+.A339cruisealttable tbody tr:nth-last-of-type(){
+  border-bottom: 2px solid #3a7fff;
 }
 
-.a330cruisealttable tbody tr.active-row{
-    font-weight: 400;
-    color: #3a7fff;
+.A339cruisealttable tbody tr.active-row{
+  font-weight: 400;
+  color: #3a7fff;
 }
 
 /* Cruise Speeds H2 and P */
 
-.cruisespeeda330 {
-    width: 80%;
-    margin: auto;
-    text-align: center;
-    padding-top: 20px;
+.cruisespeedA339 {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  padding-top: 20px;
 }
-                
+              
 h2 {
-    font-size: 30px;
-    font-weight: 600;
+  font-size: 30px;
+  font-weight: 600;
 }
-                
+              
 p{
-    font-size: 15px;
-    color: rgb(0, 0, 0);
-    font-weight: 400;
-    line-height: 22px;
-    padding: 10px;
-    text-align: center;
+  font-size: 15px;
+  color: rgb(0, 0, 0);
+  font-weight: 400;
+  line-height: 22px;
+  padding: 10px;
+  text-align: center;
 }
 
 /* Cruise Speed Table */ 
 
-.a330cruisingspeedstable{
-    border-collapse: collapse;
-    margin: 25px 0;
-    font-size: 0.9rem;
-    min-width: 480px;
-    border-radius: 5px 5px 0 0;
-    overflow: hidden;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
-    margin-left: auto;
-    margin-right: auto;
+.A339cruisingspeedstable{
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 0.9rem;
+  min-width: 480px;
+  border-radius: 5px 5px 0 0;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.a330cruisingspeedstable thead tr{
-    background-color: #3a7fff;
-    color: #ffff;
-    text-align: left;
-    font-weight: 400;
+.A339cruisingspeedstable thead tr{
+  background-color: #3a7fff;
+  color: #ffff;
+  text-align: left;
+  font-weight: 400;
 }
 
-.a330cruisingspeedstable th, td{
-    padding: 12px 15px;
-
-}
-
-.a330cruisingspeedstable tbody tr{
-    border-bottom: 1px solid #dddddd;
-}
-
-.a330cruisingspeedstable tbody tr:nth-of-type(even){
-    background-color: #f3f3f3f3;
-}
-
-.a330cruisingspeedstable tbody tr:nth-last-of-type(){
-    border-bottom: 2px solid #3a7fff;
-}
-
-.a330cruisingspeedstable tbody tr.active-row{
-    font-weight: 400;
-    color: #3a7fff;
-}
-
-/* Airbus a330 Fuel Burn */
-
-.fuelburn330 {
-    width: 80%;
-    margin: auto;
-    text-align: center;
-    padding-top: 20px;
-}
-                
-.fuelburn330 h2 {
-    font-size: 30px;
-    font-weight: 600;
-}
-                
-.fuelburn330 p{
-    font-size: 15px;
-    color: rgb(0, 0, 0);
-    font-weight: 400;
-    line-height: 22px;
-    padding: 10px;
-    text-align: center;
-}
-
-.testa330 {
-    background-color: #3a7fff;
-    color: rgb(255, 255, 255);
-    text-align: left;
-    font-weight: bold;
-}
-
-.fuelburntablea330{
-    border-collapse: collapse;
-    margin: 25px 0;
-    font-size: 0.9rem;
-    min-width: 480px;
-    border-radius: 5px 5px 0 0;
-    overflow: hidden;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
-    margin-right: auto;
-    margin-left: auto;
-}
-
-.fuelburntablea330 thead tr{
-    background-color: #3a7fff;
-    color: #ffff;
-    text-align: left;
-    font-weight: 400;
-}
-
-.fuelburntablea330 th, td{
-    padding: 12px 15px;
-    text-align: left;
+.A339cruisingspeedstable th, td{
+  padding: 12px 15px;
 
 }
 
-.a330cruisingspeedstable tbody tr{
-    border-bottom: 1px solid #dddddd;
+.A339cruisingspeedstable tbody tr{
+  border-bottom: 1px solid #dddddd;
 }
 
-.fuelburntablea330 tbody tr:nth-of-type(even){
-    background-color: #f3f3f3f3;
+.A339cruisingspeedstable tbody tr:nth-of-type(even){
+  background-color: #f3f3f3f3;
 }
 
-.fuelburntablea330 tbody tr:nth-last-of-type(){
-    border-bottom: 2px solid #3a7fff;
+.A339cruisingspeedstable tbody tr:nth-last-of-type(){
+  border-bottom: 2px solid #3a7fff;
 }
 
-.fuelburntablea330 tbody tr.active-row{
-    font-weight: 400;
-    color: #3a7fff;
+.A339cruisingspeedstable tbody tr.active-row{
+  font-weight: 400;
+  color: #3a7fff;
 }
 
-.fuelburn330 p{
-  padding-bottom: 15px;
+/* Airbus A339 Fuel Burn */
+
+.fuelburn220 {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  padding-top: 20px;
+}
+              
+.fuelburn220 h2 {
+  font-size: 30px;
+  font-weight: 600;
+}
+              
+.fuelburn220 p{
+  font-size: 15px;
+  color: rgb(0, 0, 0);
+  font-weight: 400;
+  line-height: 22px;
+  padding: 10px;
+  text-align: center;
+}
+
+.testA339 {
+  background-color: #3a7fff;
+  color: rgb(255, 255, 255);
+  text-align: left;
+  font-weight: bold;
+}
+
+.fuelburntableA339{
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 0.9rem;
+  min-width: 480px;
+  border-radius: 5px 5px 0 0;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.fuelburntableA339 thead tr{
+  background-color: #3a7fff;
+  color: #ffff;
+  text-align: left;
+  font-weight: 400;
+}
+
+.fuelburntableA339 th, td{
+  padding: 12px 15px;
+  text-align: left;
 
 }
 
-/* Airbus a330 Information */ 
-
-.a330informationIRL {
-    width: 80%;
-    margin: auto;
-    text-align: center;
-    padding-top: 20px;
-}
-                
-.a330informationIRL h2 {
-    font-size: 30px;
-    font-weight: 600;
-}
-                
-.a330informationIRL p{
-    font-size: 15px;
-    color: rgb(0, 0, 0);
-    font-weight: 400;
-    line-height: 22px;
-    padding: 10px;
-    text-align: center;
-    padding-bottom: 60px;
+.A339cruisingspeedstable tbody tr{
+  border-bottom: 1px solid #dddddd;
 }
 
-/* a330 Timeline */
+.fuelburntableA339 tbody tr:nth-of-type(even){
+  background-color: #f3f3f3f3;
+}
+
+.fuelburntableA339 tbody tr:nth-last-of-type(){
+  border-bottom: 2px solid #3a7fff;
+}
+
+.fuelburntableA339 tbody tr.active-row{
+  font-weight: 400;
+  color: #3a7fff;
+}
+
+.fuelburn220 p{
+padding-bottom: 15px;
+
+}
+
+/* Airbus A339 Information */ 
+
+.A339informationIRL {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  padding-top: 20px;
+}
+              
+.A339informationIRL h2 {
+  font-size: 30px;
+  font-weight: 600;
+}
+              
+.A339informationIRL p{
+  font-size: 15px;
+  color: rgb(0, 0, 0);
+  font-weight: 400;
+  line-height: 22px;
+  padding: 10px;
+  text-align: center;
+  padding-bottom: 60px;
+}
+
+/* A339 Timeline */
 
 * {
-    box-sizing: border-box;
-  }
-  
-  /* Set a background color */
-  body {
-    font-family: Helvetica, sans-serif;
-  }
-  
-  /* The actual timeline (the vertical ruler) */
-  .timeline {
-    position: relative;
-    max-width: 1200px;
-    margin: 0 auto;
-  }
-  
-  /* The actual timeline (the vertical ruler) */
+  box-sizing: border-box;
+}
+
+/* Set a background color */
+body {
+  font-family: Helvetica, sans-serif;
+}
+
+/* The actual timeline (the vertical ruler) */
+.timeline {
+  position: relative;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* The actual timeline (the vertical ruler) */
+.timeline::after {
+  content: '';
+  position: absolute;
+  width: 6px;
+  background-color: rgb(0, 0, 0);
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  margin-left: -3px;
+}
+
+/* Container around content */
+.container {
+  padding: 10px 40px;
+  position: relative;
+  background-color: inherit;
+  width: 50%;
+}
+
+/* The circles on the timeline */
+.container::after {
+  content: '';
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  right: -17px;
+  background-color: rgb(255, 255, 255);
+  border: 4px solid #FF9F55;
+  top: 15px;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+/* Place the container to the left */
+.left {
+  left: 0;
+}
+
+/* Place the container to the right */
+.right {
+  left: 50%;
+}
+
+/* Add arrows to the left container (pointing right) */
+.left::before {
+  content: " ";
+  height: 0;
+  position: absolute;
+  top: 22px;
+  width: 0;
+  z-index: 1;
+  right: 30px;
+  border: medium solid rgb(0, 0, 0);
+  border-width: 10px 0 10px 10px;
+  border-color: transparent transparent transparent rgb(0, 0, 0);
+}
+
+/* Add arrows to the right container (pointing left) */
+.right::before {
+  content: " ";
+  height: 0;
+  position: absolute;
+  top: 22px;
+  width: 0;
+  z-index: 1;
+  left: 30px;
+  border: medium solid rgb(0, 0, 0);
+  border-width: 10px 10px 10px 0;
+  border-color: transparent rgb(0, 0, 0) transparent transparent;
+}
+
+/* Fix the circle for containers on the right side */
+.right::after {
+  left: -16px;
+}
+
+/* The actual content */
+.content {
+  padding: 20px 30px;
+  background-color: rgb(255, 255, 255);
+  position: relative;
+  border-radius: 6px;
+}
+
+/* Media queries - Responsive timeline on screens less than 600px wide */
+@media screen and (max-width: 600px) {
+/* Place the timelime to the left */
   .timeline::after {
-    content: '';
-    position: absolute;
-    width: 6px;
-    background-color: rgb(0, 0, 0);
-    top: 0;
-    bottom: 0;
-    left: 50%;
-    margin-left: -3px;
+    left: 31px;
   }
-  
-  /* Container around content */
+
+/* Full-width containers */
   .container {
-    padding: 10px 40px;
-    position: relative;
-    background-color: inherit;
-    width: 50%;
+    width: 200%;
+    padding-left: 70px;
+    padding-right: 25px;
   }
-  
-  /* The circles on the timeline */
-  .container::after {
-    content: '';
-    position: absolute;
-    width: 25px;
-    height: 25px;
-    right: -17px;
-    background-color: rgb(255, 255, 255);
-    border: 4px solid #FF9F55;
-    top: 15px;
-    border-radius: 50%;
-    z-index: 1;
-  }
-  
-  /* Place the container to the left */
-  .left {
-    left: 0;
-  }
-  
-  /* Place the container to the right */
-  .right {
-    left: 50%;
-  }
-  
-  /* Add arrows to the left container (pointing right) */
-  .left::before {
-    content: " ";
-    height: 0;
-    position: absolute;
-    top: 22px;
-    width: 0;
-    z-index: 1;
-    right: 30px;
-    border: medium solid rgb(0, 0, 0);
-    border-width: 10px 0 10px 10px;
-    border-color: transparent transparent transparent rgb(0, 0, 0);
-  }
-  
-  /* Add arrows to the right container (pointing left) */
-  .right::before {
-    content: " ";
-    height: 0;
-    position: absolute;
-    top: 22px;
-    width: 0;
-    z-index: 1;
-    left: 30px;
+
+/* Make sure that all arrows are pointing leftwards */
+  .container::before {
+    left: 60px;
     border: medium solid rgb(0, 0, 0);
     border-width: 10px 10px 10px 0;
-    border-color: transparent rgb(0, 0, 0) transparent transparent;
-  }
-  
-  /* Fix the circle for containers on the right side */
-  .right::after {
-    left: -16px;
-  }
-  
-  /* The actual content */
-  .content {
-    padding: 20px 30px;
-    background-color: rgb(255, 255, 255);
-    position: relative;
-    border-radius: 6px;
-  }
-  
-  /* Media queries - Responsive timeline on screens less than 600px wide */
-  @media screen and (max-width: 600px) {
-  /* Place the timelime to the left */
-    .timeline::after {
-      left: 31px;
-    }
-  
-  /* Full-width containers */
-    .container {
-      width: 900%;
-      padding-left: 70px;
-      padding-right: 25px;
-    }
-  
-  /* Make sure that all arrows are pointing leftwards */
-    .container::before {
-      left: 60px;
-      border: medium solid rgb(0, 0, 0);
-      border-width: 10px 10px 10px 0;
-      border-color: transparent white transparent transparent;
-    }
-  
-  /* Make sure all circles are at the same spot */
-    .left::after, .right::after {
-      left: 15px;
-    }
-  
-  /* Make all right containers behave like the left ones */
-    .right {
-      left: 0%;
-    }
+    border-color: transparent white transparent transparent;
   }
 
-  .contenta3302020 h2{
-    padding-top: 5px;
-    font-weight: 600;
-    padding-bottom: 10px;
-    font-weight: 400;
-  }
-  .contenta3302020 p{
-    font-weight: 400;
-    padding-bottom: 20px;
-    text-align: left;
-    margin-left: -9px;
+/* Make sure all circles are at the same spot */
+  .left::after, .right::after {
+    left: 15px;
   }
 
-  .contenta3302020 img{
-    max-width: 500px;
-    max-height: 500px;
+/* Make all right containers behave like the left ones */
+  .right {
+    left: 0%;
   }
-
-  .a330firstlook h2{
-    padding-top: 5px;
-    text-align: left;
-    padding-left: 20px;
-    font-weight: 400;
-  }
-
-  .a330firstlook p{
-    text-align: left;
-    padding-left: 20px;
-    padding-bottom: 20px;
-  }
-
-.a330firstlookvideo{
-    padding-left: 20px;
 }
 
-.enginesa330 h2{
-    padding-top: 6px;
-    font-weight: 600;
-    padding-bottom: 10px;
-    font-weight: 400;
-  }
-  .enginesa330 p{
-    font-weight: 400;
-    padding-bottom: 20px;
-    text-align: left;
-    margin-left: -9px;
-  }
-
-  .enginesa330 img{
-    max-width: 500px;
-    max-height: 500px;
-  }
-
-  .a330cockpitcomestolife h2{
-    padding-top: 5px;
-    text-align: left;
-    padding-left: 20px;
-    font-weight: 400;
-  }
-
-  .a330cockpitcomestolife p{
-    text-align: left;
-    padding-left: 20px;
-    padding-bottom: 20px;
-  }
-
-.a330screenscometolife{
-    padding-left: 20px;
+.contentA3392020 h2{
+  padding-top: 5px;
+  font-weight: 600;
+  padding-bottom: 10px;
+  font-weight: 400;
+}
+.contentA3392020 p{
+  font-weight: 400;
+  padding-bottom: 20px;
+  text-align: left;
+  margin-left: -9px;
 }
 
-.completea330cockpit h2{
-    padding-top: 6px;
-    font-weight: 600;
-    padding-bottom: 10px;
-    font-weight: 400;
-  }
-  .completea330cockpit p{
-    font-weight: 400;
-    padding-bottom: 20px;
-    text-align: left;
-    margin-left: -9px;
-  }
+.contentA3392020 img{
+  max-width: 500px;
+  max-height: 500px;
+}
 
-  .completea330cockpit img{
-    max-width: 500px;
-    max-height: 500px;
-  }
+.A339firstlook h2{
+  padding-top: 5px;
+  text-align: left;
+  padding-left: 20px;
+  font-weight: 400;
+}
 
-  .a330highpolyengineshot2 h2{
-    padding-top: 5px;
-    text-align: left;
-    padding-left: 20px;
-    font-weight: 400;
-  }
+.A339firstlook p{
+  text-align: left;
+  padding-left: 20px;
+  padding-bottom: 20px;
+}
 
-  .a330highpolyengineshot2 p{
-    text-align: left;
-    padding-left: 20px;
-    padding-bottom: 20px;
-  }
+.A339firstlookvideo{
+  padding-left: 20px;
+}
 
-  .a330highpolyengineshot2 img{
-    padding-left: 20px;
-    max-width: 550px;
-    max-height: 550px;
-  }
+.enginesA339 h2{
+  padding-top: 6px;
+  font-weight: 600;
+  padding-bottom: 10px;
+  font-weight: 400;
+}
+.enginesA339 p{
+  font-weight: 400;
+  padding-bottom: 20px;
+  text-align: left;
+  margin-left: -9px;
+}
 
-  .gearandenginesshota330 h2{
-    padding-top: 6px;
-    font-weight: 600;
-    padding-bottom: 10px;
-    font-weight: 400;
-  }
-  .gearandenginesshota330 p{
-    font-weight: 400;
-    padding-bottom: 20px;
-    text-align: left;
-    margin-left: -9px;
-  }
+.enginesA339 img{
+  max-width: 500px;
+  max-height: 500px;
+}
 
-  .gearandenginesshota330 img{
-    max-width: 500px;
-    max-height: 500px;
-  }
+.A339cockpitcomestolife h2{
+  padding-top: 5px;
+  text-align: left;
+  padding-left: 20px;
+  font-weight: 400;
+}
 
-  .firstothershotofa330 h2{
-    padding-top: 5px;
-    text-align: left;
-    padding-left: 20px;
-    font-weight: 400;
-  }
+.A339cockpitcomestolife p{
+  text-align: left;
+  padding-left: 20px;
+  padding-bottom: 20px;
+}
 
-  .firstothershotofa330 p{
-    text-align: left;
-    padding-left: 20px;
-    padding-bottom: 20px;
-  }
+.A339screenscometolife{
+  padding-left: 20px;
+}
 
-  .firstothershotofa330 img{
-    padding-left: 20px;
-    max-width: 550px;
-    max-height: 550px;
-  }
+.completeA339cockpit h2{
+  padding-top: 6px;
+  font-weight: 600;
+  padding-bottom: 10px;
+  font-weight: 400;
+}
+.completeA339cockpit p{
+  font-weight: 400;
+  padding-bottom: 20px;
+  text-align: left;
+  margin-left: -9px;
+}
 
-  .a330isannounced h2{
-    padding-top: 6px;
-    font-weight: 600;
-    padding-bottom: 10px;
-    font-weight: 400;
-  }
-  .a330isannounced p{
-    font-weight: 400;
-    padding-bottom: 20px;
-    text-align: left;
-    margin-left: -9px;
-  }
+.completeA339cockpit img{
+  max-width: 500px;
+  max-height: 500px;
+}
 
-  .a330isannounced img{
-    max-width: 500px;
-    max-height: 500px;
-  }
+.A339highpolyengineshot2 h2{
+  padding-top: 5px;
+  text-align: left;
+  padding-left: 20px;
+  font-weight: 400;
+}
 
-  /* a330 General Information */
+.A339highpolyengineshot2 p{
+  text-align: left;
+  padding-left: 20px;
+  padding-bottom: 20px;
+}
 
-  .a330generalinformation h2{
-    text-align: center;
-  }
+.A339highpolyengineshot2 img{
+  padding-left: 20px;
+  max-width: 550px;
+  max-height: 550px;
+}
 
-  .a330generalinformation p{
-    text-align: center;
-  }
+.gearandenginesshotA339 h2{
+  padding-top: 6px;
+  font-weight: 600;
+  padding-bottom: 10px;
+  font-weight: 400;
+}
+.gearandenginesshotA339 p{
+  font-weight: 400;
+  padding-bottom: 20px;
+  text-align: left;
+  margin-left: -9px;
+}
 
-  /* Liveries Table */
+.gearandenginesshotA339 img{
+  max-width: 500px;
+  max-height: 500px;
+}
 
-  .liverytable{
-    border-collapse: collapse;
-    margin: 25px 0;
-    font-size: 0.9rem;
-    min-width: 480px;
-    border-radius: 5px 5px 0 0;
-    overflow: hidden;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
-    margin-left: auto;
-    margin-right: auto;
+.firstothershotofA339 h2{
+  padding-top: 5px;
+  text-align: left;
+  padding-left: 20px;
+  font-weight: 400;
+}
+
+.firstothershotofA339 p{
+  text-align: left;
+  padding-left: 20px;
+  padding-bottom: 20px;
+}
+
+.firstothershotofA339 img{
+  padding-left: 20px;
+  max-width: 550px;
+  max-height: 550px;
+}
+
+.A339isannounced h2{
+  padding-top: 6px;
+  font-weight: 600;
+  padding-bottom: 10px;
+  font-weight: 400;
+}
+.A339isannounced p{
+  font-weight: 400;
+  padding-bottom: 20px;
+  text-align: left;
+  margin-left: -9px;
+}
+
+.A339isannounced img{
+  max-width: 500px;
+  max-height: 500px;
+}
+
+/* A339 General Information */
+
+.A339generalinformation h2{
+  text-align: center;
+}
+
+.A339generalinformation p{
+  text-align: center;
+}
+
+/* Liveries Table */
+
+.liverytable{
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 0.9rem;
+  min-width: 480px;
+  border-radius: 5px 5px 0 0;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .liverytable thead tr{
-    background-color: #3a7fff;
-    color: #ffff;
-    text-align: left;
-    font-weight: 400;
+  background-color: #3a7fff;
+  color: #ffff;
+  text-align: left;
+  font-weight: 400;
 }
 
 .liverytable th, td{
-    padding: 12px 15px;
+  padding: 12px 15px;
 
 }
 
 .liverytable tbody tr{
-    border-bottom: 1px solid #dddddd;
+  border-bottom: 1px solid #dddddd;
 }
 
 .liverytable tbody tr:nth-of-type(even){
-    background-color: #f3f3f3f3;
+  background-color: #f3f3f3f3;
 }
 
 .liverytable tbody tr:nth-last-of-type(){
-    border-bottom: 2px solid #3a7fff;
+  border-bottom: 2px solid #3a7fff;
 }
 
 .liverytable tbody tr.active-row{
-    font-weight: 400;
-    color: #3a7fff;
+  font-weight: 400;
+  color: #3a7fff;
 }
 
-/* a330 Coloums */
+/* A339 Coloums */
 
 .row{
-    margin-top: 5%;
-    display: flex;
-    justify-content: space-between;
+  margin-top: 5%;
+  display: flex;
+  justify-content: space-between;
 }
 
-.a330range-col{
-    flex-basis: 23%;
-    background: #e9e9e9;
-    border-radius: 10px;
-    margin-bottom: 6%;
-    padding: 20px 12px;
-    box-sizing: border-box;
-    transition: 0.5s;
-}
-
-h3{
-    text-align: center;
-    font-weight: 600;
-    margin: 10;
-}
-
-.a330range-col:hover{
-    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
-}
-
-.a330range-col{
-    flex-basis: 23%;
-    background: #e9e9e9;
-    border-radius: 10px;
-    margin-bottom: 6%;
-    padding: 20px 12px;
-    box-sizing: border-box;
-    transition: 0.5s;
-    color: #000000;
+.A339range-col{
+  flex-basis: 23%;
+  background: #e9e9e9;
+  border-radius: 10px;
+  margin-bottom: 6%;
+  padding: 20px 12px;
+  box-sizing: border-box;
+  transition: 0.5s;
 }
 
 h3{
-    text-align: center;
-    font-weight: 600;
-    margin: 10;
+  text-align: center;
+  font-weight: 600;
+  margin: 10;
 }
 
-.a330range-col:hover{
-    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+.A339range-col:hover{
+  box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
 }
 
-.a330passengercount-col{
-    flex-basis: 23%;
-    background: #e9e9e9;
-    border-radius: 10px;
-    margin-bottom: 6%;
-    padding: 20px 12px;
-    box-sizing: border-box;
-    transition: 0.5s;
-    color: #000000;
-}
-
-h3{
-    text-align: center;
-    font-weight: 600;
-    margin: 10;
-}
-
-.a330passengercount-col:hover{
-    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
-}
-
-.row{
-    margin-top: 5%;
-    display: flex;
-    justify-content: space-between;
-}
-
-.a330MTOWandMLW-col{
-    flex-basis: 23%;
-    background: #e9e9e9;
-    border-radius: 10px;
-    margin-bottom: 6%;
-    padding: 20px 12px;
-    box-sizing: border-box;
-    transition: 0.5s;
+.A339range-col{
+  flex-basis: 23%;
+  background: #e9e9e9;
+  border-radius: 10px;
+  margin-bottom: 6%;
+  padding: 20px 12px;
+  box-sizing: border-box;
+  transition: 0.5s;
+  color: #000000;
 }
 
 h3{
-    text-align: center;
-    font-weight: 600;
-    margin: 10;
+  text-align: center;
+  font-weight: 600;
+  margin: 10;
 }
 
-.a330MTOWandMLW-col:hover{
-    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+.A339range-col:hover{
+  box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
 }
 
-.a330MTOWandMLW-col{
-    flex-basis: 23%;
-    background: #e9e9e9;
-    border-radius: 10px;
-    margin-bottom: 6%;
-    padding: 20px 12px;
-    box-sizing: border-box;
-    transition: 0.5s;
-    color: #000000;
+.A339passengercount-col{
+  flex-basis: 23%;
+  background: #e9e9e9;
+  border-radius: 10px;
+  margin-bottom: 6%;
+  padding: 20px 12px;
+  box-sizing: border-box;
+  transition: 0.5s;
+  color: #000000;
 }
 
 h3{
-    text-align: center;
-    font-weight: 600;
-    margin: 10;
+  text-align: center;
+  font-weight: 600;
+  margin: 10;
 }
 
-.a330MTOWandMLW-col:hover{
-    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+.A339passengercount-col:hover{
+  box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
 }
 
 .row{
-    margin-top: 5%;
-    display: flex;
-    justify-content: space-between;
-    padding-left: 900px;
-    padding-right: 900px;
+  margin-top: 5%;
+  display: flex;
+  justify-content: space-between;
 }
 
-.a330info-col{
-    flex-basis: 23%;
-    background: #e9e9e9;
-    border-radius: 10px;
-    margin-bottom: 6%;
-    padding: 20px 12px;
-    box-sizing: border-box;
-    transition: 0.5s;
-}
-
-h3{
-    text-align: center;
-    font-weight: 600;
-    margin: 10;
-}
-
-.a330info-col:hover{
-    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
-}
-
-.a330info-col{
-    flex-basis: 23%;
-    background: #e9e9e9;
-    border-radius: 10px;
-    margin-bottom: 6%;
-    padding: 20px 12px;
-    box-sizing: border-box;
-    transition: 0.5s;
-    color: #000000;
+.A339MTOWandMLW-col{
+  flex-basis: 23%;
+  background: #e9e9e9;
+  border-radius: 10px;
+  margin-bottom: 6%;
+  padding: 20px 12px;
+  box-sizing: border-box;
+  transition: 0.5s;
 }
 
 h3{
-    text-align: center;
-    font-weight: 600;
-    margin: 10;
+  text-align: center;
+  font-weight: 600;
+  margin: 10;
 }
 
-.a330info-col:hover{
-    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+.A339MTOWandMLW-col:hover{
+  box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+}
+
+.A339MTOWandMLW-col{
+  flex-basis: 23%;
+  background: #e9e9e9;
+  border-radius: 10px;
+  margin-bottom: 6%;
+  padding: 20px 12px;
+  box-sizing: border-box;
+  transition: 0.5s;
+  color: #000000;
+}
+
+h3{
+  text-align: center;
+  font-weight: 600;
+  margin: 10;
+}
+
+.A339MTOWandMLW-col:hover{
+  box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+}
+
+.row{
+  margin-top: 5%;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 200px;
+  padding-right: 200px;
+}
+
+.A339info-col{
+  flex-basis: 23%;
+  background: #e9e9e9;
+  border-radius: 10px;
+  margin-bottom: 6%;
+  padding: 20px 12px;
+  box-sizing: border-box;
+  transition: 0.5s;
+}
+
+h3{
+  text-align: center;
+  font-weight: 600;
+  margin: 10;
+}
+
+.A339info-col:hover{
+  box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+}
+
+.A339info-col{
+  flex-basis: 23%;
+  background: #e9e9e9;
+  border-radius: 10px;
+  margin-bottom: 6%;
+  padding: 20px 12px;
+  box-sizing: border-box;
+  transition: 0.5s;
+  color: #000000;
+}
+
+h3{
+  text-align: center;
+  font-weight: 600;
+  margin: 10;
+}
+
+.A339info-col:hover{
+  box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
 }
