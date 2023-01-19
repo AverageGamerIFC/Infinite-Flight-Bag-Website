@@ -119,9 +119,9 @@ nav img{
 }
 
 .hero-btn:hover{
+    transition: ease 1s;
     border: 1px solid #f44336;
     background: #f44336;
-    transition: ease 1s;
 }
 
 nav .fa-solid{

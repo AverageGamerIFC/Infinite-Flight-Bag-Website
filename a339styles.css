@@ -61,13 +61,13 @@ nav img{
 }
 
 .nav-links ul li::after{
+  transition: 0.5s;
   content: "";
   width: 0%;
   height: 1.5px;
   background: #fbff00;
   display: block;
   margin-top: 2px;
-  transition: 0.5s;
 }
 
 .nav-links ul li:hover::after{
